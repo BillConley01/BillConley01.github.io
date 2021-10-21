@@ -1,5 +1,30 @@
 <!doctype html>
 <html>
+  <head>
+        <title>Holy Grail</title>
+        <style>
+            .grid{
+                display: grid;
+                grid-template-columns: 200px 1fr 200px;
+                grid-template-rows: auto 1fr auto;
+                gap: 5px;
+                height: 90vh;
+
+            }
+            header,
+            footer{
+                grid-column: 1 / 4;
+            }
+
+            header,
+            aside, article, footer{
+                border-style: solid;
+              color:#004A94;
+                background: #8FBC8F;
+                font-size: 2em;
+            }
+            </style>
+    </head>
 <h1> Bill's Portfolio</h1>
 <img src="./selfie.jpeg"/>
 </html>
