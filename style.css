@@ -34,6 +34,10 @@ body {
     background-color: CornflowerBlue;
   }
 
-  tab-pane{
+  .tab-pane{
     display: block;
   }
+.pacman-page{
+      min-width: 360px;
+      min-height:360px;
+}
