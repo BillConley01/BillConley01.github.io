@@ -1,0 +1,39 @@
+body {
+      font: 1rem/1.5 var(--bs-font-sans-serif);
+      color:  slateblue;
+   
+  }
+  span, header, body, nav{
+    background-color: lightseagreen;
+    color:  slateblue;
+  }
+  a {
+    color: slateblue;
+  }
+  
+  .navbar{
+    color:darkblue;
+  }
+.btn{
+  color:darkblue;
+}
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle {
+    outline: 0;
+  }
+  .about-cards{
+    background-color: CornflowerBlue;
+  }
+
+  tab-pane{
+    display: block;
+  }
