@@ -1,13 +1,15 @@
 body {
       font: 1rem/1.5 var(--bs-font-sans-serif);
+      font-size: 14px;
       color:  slateblue;
    
   }
-  span, header, body, nav{
-    background-color: lightseagreen;
-    color:  slateblue;
+  span, header, body, nav, footer, main{
+    background-image: linear-gradient(to left, #62978a, #6fad9d);
+   /* background-color: lightseagreen;
+    color:  slateblue;*/
   }
-.main-footer{
+footer{
       position:absolute;
    bottom:0;
    width:100%;
@@ -16,11 +18,17 @@ body {
 }
 
   a {
-    color: slateblue;
+    color: slateblue!;
+  }
+
+  .navbar .active a {
+    color:darkblue;
+    text-decoration: underline;
+    font-weight: bold;
   }
   
-  .navbar{
-    color:darkblue;
+  .navbar a{
+    color:darkblue!;
   }
 .btn{
   color:darkblue;
