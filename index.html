@@ -12,7 +12,8 @@ l<!doctype html>
   </head>
   <body>
     <script src="./script.js"></script>
-        <nav class="navbar navbar-expand-md ms-3 me-3 mb-2 fs-5 navbar-light border-bottom" id="nav" aria-label="Navigation Bar">
+        <main>
+        <nav class="navbar navbar-expand-md fixed-top ms-3 me-3 mb-2 fs-5 navbar-light border-bottom" id="nav" aria-label="Navigation Bar">
           <div class="container-fluid">
 
             <a class="navbar-brand fs-3 ms-4 mb-2" href="/">Bill Conley</a>
@@ -20,7 +21,7 @@ l<!doctype html>
             <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navigationbar" aria-controls="navigationbar" aria-expanded="false" aria-label="Hamburger Menu">
               <span class="navbar-toggler-icon"></span>
             </button>
-             <div class="collapse navbar-collapse" id="navbarsExample04">
+             <div class="collapse navbar-collapse" id="navigationbar">
               <ul class="navigation-list navbar-nav align-text-bottom ms-auto me-4 pr-3 mb-0 pb-0" id="pageTabs">
                 <li class="nav-item ms-3 pr-2">
                   <a class="nav-link active" href="#home">Home</a>
@@ -276,9 +277,13 @@ l<!doctype html>
             </div>
 
         </div>
- <footer class="main-footer ms-3 me-3 mb-2 p-2 border-top background-light">&copy;2021</footer>
- 
+
       </div>
+
+      <footer class="footer fixed-bottom py-3 border-top"> <div class="container">
+        <span class="text-muted">&copy;2021</span>
+      </div></footer>
+    </main>
  
   </body>
 </html>
