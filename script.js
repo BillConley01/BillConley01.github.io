@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function(){
     });
 });
 
-document.addEventListener("DOMContentLoaded", function(){
+window.addEventListener('load', function(){
 let link = document.querySelector('README');
     if(link){
         console.log("link not null " + link);
