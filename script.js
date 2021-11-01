@@ -34,3 +34,11 @@ document.addEventListener("DOMContentLoaded", function(){
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", function(){
+const link = document.querySelector('README.md');
+// Clone the <template> in the import.
+const template = link.import.querySelector('template');
+const clone = document.importNode(template.content, true);
+document.querySelector('#container').appendChild(clone);
+});
