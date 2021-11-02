@@ -98,8 +98,10 @@ a.nav-link {
     max-height:480px;
 }
 .code-pen-frames{
- min-width: 360px;
-    max-height:480px;
+ background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:460px;
 }
 .landing-page-text{
 font-family: 'Handlee', cursive;
