@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 window.addEventListener('load', function(){
-let template = document.querySelectorAll('link[rel="import"]')[0].import.getElementsByTagName("template")[0];
+let template = document.querySelectorAll('link[rel="import"]')[0].getElementById('template-link');
     if(template){
         console.log("link not null " + template);
     }
