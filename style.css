@@ -61,6 +61,19 @@ a.nav-link {
   background-color: #F4A261;
   color:  #264653;
   width: auto;
+  height:480px;
+}
+.eyes-cards{
+  background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:480px;
+}
+.bus-cards{
+  background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:480px;
 }
 .tab-pane{
   display: block;
