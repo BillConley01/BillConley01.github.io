@@ -35,7 +35,7 @@ const template = document.querySelector('link[rel="import"]').getElementsByTagNa
     if(template){
         console.log("link not null " + template);
     }
-const data = document.getElementById('template-container')
+const data = document.getElementById('template-container');
 data.appendChild(template.cloneNode());
        }, false);
     
