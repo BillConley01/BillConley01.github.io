@@ -31,10 +31,10 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 window.addEventListener('load', function(){
-let link = document.querySelector('link[rel="import"]');
+let link = document.querySelector('link[rel="import"]').import;
     if(link){
         console.log("link not null " + link);
-        let template = link.querySelector('template');
+        let template = link.import.querySelector('template');
         let clone = document.importNode(template.content, true);
         document.getElementById('template-container').appendChild(clone);
     }
