@@ -74,19 +74,19 @@ a.nav-link {
 }
 .pacman-page{
     min-width: 360px;
-    min-height:600px;
+    max-height:480px;
 }
 .bus-page{
-    min-width: 360px;
-    min-height:600px;
+     min-width: 360px;
+    max-height:480px;
 }
 .eyes-page{
-    min-width: 360px;
-    min-height:600px;
+     min-width: 360px;
+    max-height:480px;
 }
 .code-pen-frames{
-min-width: 360px;
-       min-height:600px;
+ min-width: 360px;
+    max-height:480px;
 }
 .landing-page-text{
 font-family: 'Handlee', cursive;
