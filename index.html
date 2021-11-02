@@ -7,280 +7,414 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <title>Bill Conley</title>
-  </head>
-  <body>
     <script src="./script.js"></script>
-        <nav class="navbar navbar-expand-md ms-3 me-3 mb-2 fs-5 navbar-light border-bottom" id="nav" aria-label="Navigation Bar">
-          <div class="container-fluid">
+  </head>
+    <body>
+          <div class="diagonal-box container-fluid">
+            <nav class="navbar navbar-expand-lg row ms-3 me-3 mb-2 fs-5 border-bottom" id="nav" aria-label="Navigation Bar">
+              <div class="container-fluid">
 
-            <a class="navbar-brand fs-3 ms-4 mb-2" href="/">Bill Conley</a>
-            
-            <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navigationbar" aria-controls="navigationbar" aria-expanded="false" aria-label="Hamburger Menu">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-             <div class="collapse navbar-collapse" id="navbarsExample04">
-              <ul class="navigation-list navbar-nav align-text-bottom ms-auto me-4 pr-3 mb-0 pb-0" id="pageTabs">
-                <li class="nav-item ms-3 pr-2">
-                  <a class="nav-link active" href="#home">Home</a>
-                </li>
-                <li class="nav-item ms-3 pr-2">
-                  <a class="nav-link" href="#work-history"> Work History</a>
-                </li>
-                <li class="nav-item ms-3 pr-2">
-                  <a class="nav-link" href="#education">Education</a>
-                </li>
-                <li class="nav-item align-bottom ms-3 me-2 dropdown">
-                  <a class="nav-link dropdown-toggle pr-2" href="#" id="dropdown-1" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
-                  <ul class="navigation-list dropdown-menu ms-2" aria-labelledby="dropdown-1">
-                    <li><a class="dropdown-item nav-link" href="#portfolio" >Portfolio</a></li>
-                    <li><a class="dropdown-item nav-link" href="#pacman" >PacMan</a></li>
-                    <li><a class="dropdown-item nav-link" href="#busroutes">Bus Routes</a></li>
-                    <li><a class="dropdown-item nav-link" href="#eyes">Eyes</a></li>
-                  </ul>
-                </li>
-              </ul>
-             </div>
-          </div>
-      </nav>
-
-      <div class="tab-content">
-
-          <div class="tab-pane fade show active" role="tabpanel" id="home">
-              
-              <div class="container px-4 py-4">
-                <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
-                 
-                  <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white about-cards rounded-5 shadow-lg">
-                      <div class="d-flex flex-column h-100 p-4 pt-4" id="selfie">
-                        <img src="./selfie.jpeg" alt=".selfie"/> 
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col">
-                      <div class="card card-cover h-100 overflow-hidden text-white about-cards rounded-5 shadow-lg">
-                          <div class="d-flex flex-column h-100 p-3 text-white text-shadow-1">
-                            <h2 class="mt-2 mb-2 display-6 lh-1 fw-bold">About</h2>
-                            <p>Hello, my name is Bill Conley. Thank you for taking this moment. I have always had a passion for technology, 
-                              but my journey towards becoming a software developer didn’t officially begin until about 10 years ago after I decided to pursue a college education. </p>
-                              <p>
-                              Because of my passion for technology the majority of my electives were in programming and other technology related subjects. 
-                              While going back to school and working fulltime was challenging at first, I became encouraged because I had found a path towards a career that truly excited me.</p>
-                              <p>
-                              After graduating I became more clear in my determination to become a software developer and immediately went on to enroll in and complete 
-                              a master's program in Software Development. To further prepare myself for this new career, I am currently working on a Professional Certificate 
-                              Program in full stack development.</p>
-                              <p>
-                              Although my previous work history has not been in Software Development, I believe the experience, skills and qualities that I have developed 
-                              and demonstrated throughout my career are desirable and well suited for a software developer. Examples of these skill are a mindset towards 
-                              continuous improvement and attention to detail, the ability to take on increasing responsibilities, and the ability to work well in team environments. 
-                              <p>
-                              I believe these skills paired with my education have uniquely prepared me for the next step in my journey, which is obtaining a position developing web applications.
-                              </p>
-                          </div>
-                      </div>
-                  </div> 
-
-                </div>
-              </div>
-
-          </div>
-
-          <div class="tab-pane fade" role="tabpanel" id="work-history">
-              
-              <div class="container px-4 py-5">
-                <h2 class="pb-2 border-bottom">Work History</h2>
-            
-                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-
-                  <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
-                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
-        
-                      </div>
-                    </div>
-                  </div>
-            
-                  <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h2>
+                <a class="navbar-brand fs-3 ms-2 mb-2" href="/"><img src="selfie.jpeg" class="p-1"id="brand-image"> Bill Conley</a>
                 
-                      </div>
-                    </div>
-                  </div>
-            
-                  <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-          </div>
-                    
-          <div class="tab-pane fade" role="tabpanel" id="education">
-            
-            <div class="container px-4 py-5">
-                <h2 class="pb-2 border-bottom">Education</h2>
-            
-                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                  
-                  <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
-                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h2>
-        
-                      </div>
-                    </div>
-                  </div>
-            
-                  <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                      <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h2>
+                <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navigationbar" aria-controls="navigationbar" aria-expanded="false" aria-label="Hamburger Menu">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
                 
-                      </div>
-                    </div>
-                  </div>
-            
-                  <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-                      <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                        <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h2>
-                    
-                      </div>
-                    </div>
-                  </div>
-                
-                </div>
-              </div>
-
-          </div>
-
-        <div class="tab-pane fade" role="tabpanel" id="portfolio">
-
-
-            <div class="container px-4 py-5">
-              <h2 class="pb-2 border-bottom">Portfolio</h2>
-              
-              <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-                
-                <div class="col">
-                  <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                      <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">PacMan</h2>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col">
-                  <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                      <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Bus Routes</h2>
-                      <ul class="d-flex list-unstyled mt-auto">
-                        <li class="me-auto">
-                          <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                        </li>
-                        <li class="d-flex align-items-center me-3">
-                          <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                          <small>Pakistan</small>
-                        </li>
-                        <li class="d-flex align-items-center">
-                          <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"/></svg>
-                          <small>4d</small>
-                        </li>
+                <div class="collapse navbar-collapse" id="navigationbar">
+                  <ul class="navigation-list navbar-nav align-text-bottom ms-auto me-4 pr-3 mb-0 pb-0" id="pageTabs">
+                    <li class="nav-item ms-3 pr-2">
+                      <a class="nav-link active" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item ms-3 pr-2">
+                      <a class="nav-link" href="#about-me">About Me</a>
+                    </li>
+                    <li class="nav-item ms-3 pr-2">
+                      <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item ms-3 pr-2">
+                      <a class="nav-link" href="#work-history">Work History</a>
+                    </li>
+                    <li class="nav-item align-bottom ms-3 me-2 dropdown">
+                      <a class="nav-link dropdown-toggle pr-2" href="#" id="dropdown-1" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                      <ul class="navigation-list dropdown-menu ms-2" aria-labelledby="dropdown-1">
+                        <li><a class="dropdown-item nav-link" href="#overview" >Codepne View</a></li>
+                        <li><a class="dropdown-item nav-link" href="#pacman" >Github View</a></li>
+                        <li><a class="dropdown-item nav-link" href="#busroutes">Bus Routes</a></li>
+                        <li><a class="dropdown-item nav-link" href="#eyes">Eyes</a></li>
                       </ul>
-                    </div>
-                  </div>
-                </div>  
-
-                <div class="col">
-                  <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                      <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Eyes</h2>
-                    </div>
-                  </div>
+                    </li>
+                  </ul>
                 </div>
-
               </div>
+            </nav>
 
-            </div>
+            <!--   Main Tab View -->
+            <div class="tab-content row py-2">
 
-        </div>
 
-        <div class="tab-pane fade" role="tabpanel" id="pacman">
-        
-            <div class="container px-4 py-5">
-                <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
-                 
-                  <div class="col">
-                    
-                    <div class="card card-cover h-100 overflow-hidden text-white about-cards rounded-5 shadow-lg">
-                      <div class="d-flex flex-column h-100 p-3 text-white text-shadow-1">
-                        <h2 class="mt-2 mb-2 display-6 lh-1 fw-bold">Pacman</h2>
-                        <p>Hello, my name is Pacman</p>
+                <!--   Home panel -->
+                    <div class="tab-pane h-100 fade show active" role="tabpanel" id="home">                
+                      <div class="container h-100">
+                        <div class="row row-cols-1 row-cols-lg-2 h-100 w-100 align-items-stretch g-4">              
+                              <div class="d-flex flex-column align-self-start py-3 px-1 mt-4">
+                                <div class="card card-cover h-100 about-cards rounded-5 shadow-lg p-4">
+                                  <p class="landing-page-text">Hello, my name is Bill Conley. I am a full stack Web Developer/ Software Engineer. I specialize in the MERN stack and the Java Spring framework. Please take a look at my portfolio.</p>
+                                </div>
+                                  
+                               
+                              </div>
+                        
+                              <div class="d-flex flex-column align-self-end py-3 px-1 me-auto mb-4">
+                                <div class="card card-cover h-100 about-cards rounded-5 shadow-lg p-4">
+                                  <p class="landing-page-text align-text-bottom">The only way to do great work is to love what you do. 
+                                  If you haven’t found it yet, keep looking. Don’t settle.</p><p class="landing-page-text align-text-bottom">--Steve Jobs</p>
+                              </div>
+                              </div>
+                        </div>
                       </div>
                     </div>
+
+                    <!--   About Me panel -->
+                      <div class="tab-pane fade" role="tabpanel" id="about-me">
+                          
+                          <div class="container px-3 py-3">
+                            <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-3">
+                            
+                              <div class="col">
+                                <div class="card card-cover h-100 about-cards aligh-items-center rounded-5 shadow-lg">
+                                  <div class="d-flex flex-column p-3" id="selfie">
+                                    <img src="./selfie.jpeg" alt=".selfie" class="selfie m-auto"/> 
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col">
+                                  <div class="card card-cover h-100 about-cards rounded-5 shadow-lg">
+                                      <div class="d-flex flex-column p-3">
+                                        <h2 class="mt-2 mb-2 display-6 lh-1 fw-bold">About</h2>
+                                        <p>Hello, my name is Bill Conley. Thank you for taking this moment. I have always had a passion for technology, 
+                                          but my journey towards becoming a software developer didn’t officially begin until about 10 years ago after I decided to pursue a college education. </p>
+                                          <p>
+                                          Because of my passion for technology the majority of my electives were in programming and other technology related subjects. 
+                                          While going back to school and working fulltime was challenging at first, I became encouraged because I had found a path towards a career that truly excited me.</p>
+                                          <p>
+                                          After graduating I became more clear in my determination to become a software developer and immediately went on to enroll in and complete 
+                                          a master's program in Software Development. To further prepare myself for this new career, I am currently working on a Professional Certificate 
+                                          Program in full stack development.</p>
+                                          <p>
+                                          Although my previous work history has not been in Software Development, I believe the experience, skills and qualities that I have developed 
+                                          and demonstrated throughout my career are desirable and well suited for a software developer. Examples of these skill are a mindset towards 
+                                          continuous improvement and attention to detail, the ability to take on increasing responsibilities, and the ability to work well in team environments. 
+                                          <p>
+                                          These skills paired with my education have uniquely prepared me for the next step in my journey, obtaining a position developing web applications.
+                                          </p>
+                                      </div>
+                                  </div>
+                              </div> 
+
+                            </div>
+                          </div>
+
+                      </div>
+                       <!--   Education panel -->
+                       <div class="tab-pane fade" role="tabpanel" id="education">
+                        <div class="container px-4 py-5">
+                          <h2 class="pb-2 border-bottom">Education</h2>
+                      
+                          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+                            <div class="col">
+                              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                   
-                  </div>                
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="col">
+                              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="col">
+                              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
+                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                  
+                                </div>
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+
+                    </div>
+                    <!--   Work History panel -->
+                      <div class="tab-pane fade" role="tabpanel" id="work-history">
+                          <div class="container px-4 py-5">
+                            <h2 class="pb-2 border-bottom">Work History</h2>
+                        
+                            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+
+                              <div class="col">
+                                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
+                                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    
+                                  </div>
+                                </div>
+                              </div>
+                        
+                              <div class="col">
+                                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
+                                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    
+                                  </div>
+                                </div>
+                              </div>
+                        
+                              <div class="col">
+                                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
+                                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                    
+                                  </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                      </div>
+                    <!--   Portfolio panel   
+                      <div class="tab-pane fade" role="tabpanel" id="overview">
+                        
+                        <div class="container px-3 py-4">
                 
-                </div>
-              </div>
-
-        </div>
-
-        <div class="tab-pane fade" role="tabpanel" id="busroutes">
-
-            <div class="container px-4 py-5">
-                <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
-                  
-                  <div class="col">
+                          <h2>Portfolio</h2>
+                            <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 px-2 py-1">
+                              
+                              <div class="col">
+                                <div class="card card-cover code-pen-frames h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+                                  <div class="d-flex flex-column h-100 text-white text-shadow-1">
+                                    <p class="codepen" data-height="320" data-default-tab="result" data-slug-hash="vYJJJaL" data-user="billconley01" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                      <span>See the Pen <a href="https://codepen.io/billconley01/pen/vYJJJaL">
+                                      Pacman</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
+                                      on <a href="https://codepen.io">CodePen</a>.</span>
+                                    </p>
                     
-                    <div class="card card-cover h-100 overflow-hidden text-white about-cards rounded-5 shadow-lg">
-                      <div class="d-flex flex-column h-100 p-3 text-white text-shadow-1">
-                        <h2 class="mt-2 mb-2 display-6 lh-1 fw-bold">Pacman</h2>
-                        <p>Hello, my name is Bus Routes</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col">
+                                
+                                <div class="card card-cover h-100 text-white about-cards rounded-5 shadow-lg">
+                                  <div class="d-flex flex-column h-100 pacman-card embed-responsive embed-responsive-4by3 p-3 text-white text-shadow-1">
+                                    <h2 class="mt-2 mb-2 display-8 lh-1 fw-bold">Pacman</h2>
+                                    <iframe src="/PacMan" class="pacman-page h-100 embed-responsive-item"> </iframe>
+                                  </div>
+                                </div>
+                              
+                              </div>        
+                        
+                              <div class="col">
+                                <div class="card card-cover code-pen-frames h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                                  <div class="d-flex flex-column h-100 text-w3 phite text-shadow-1">
+                                    <p class="codepen" data-height="320" data-theme-id="dark" data-default-tab="result" data-slug-hash="wvqqXBp" data-user="billconley01" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                      <span>See the Pen <a href="https://codepen.io/billconley01/pen/wvqqXBp">
+                                      Untitled</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
+                                      on <a href="https://codepen.io">CodePen</a>.</span>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                        
+                              <div class="col">
+                                <div class="card card-cover code-pen-frames h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+                                  <div class="d-flex flex-column h-100 text-shadow-1">
+                                    <p class="codepen" data-height="320"  data-theme-id="dark" data-default-tab="result" data-slug-hash="ExvvRPY" data-user="billconley01" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                      <span>See the Pen <a href="https://codepen.io/billconley01/pen/ExvvRPY">
+                                      Eyes</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
+                                      on <a href="https://codepen.io">CodePen</a>.</span>
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            
+                            </div>
+                          </div>
+
                       </div>
+                      -->      
+                    <!--   Pacman panel -->
+                    <div class="tab-pane fade" role="tabpanel" id="pacman">
+                    
+                      <div class="container px-3 py-4">
+                
+                        <h2>Portfolio</h2>
+                          <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 px-2 py-1">
+                            
+                            <div class="col">
+                              <div class="card card-cover code-pen-frames h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1">
+                                  <p class="codepen" data-height="320" data-default-tab="result" data-slug-hash="vYJJJaL" data-user="billconley01" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                    <span>See the Pen <a href="https://codepen.io/billconley01/pen/vYJJJaL">
+                                    Pacman</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
+                                    on <a href="https://codepen.io">CodePen</a>.</span>
+                                  </p>
+                  
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              
+                              <div class="card card-cover h-100 text-white about-cards rounded-5 shadow-lg">
+                                <div class="d-flex flex-column h-100 pacman-card embed-responsive embed-responsive-4by3 p-3 text-white text-shadow-1">
+                                  <h2 class="mt-2 mb-2 display-8 lh-1 fw-bold">Pacman</h2>
+                                  <iframe src="/PacMan" class="pacman-page h-100 embed-responsive-item"> </iframe>
+                                </div>
+                              </div>
+                            
+                            </div>        
+                          
+                          </div>
+                        </div>
+
                     </div>
 
-                  </div>  
+                    <div class="tab-pane fade" role="tabpanel" id="busroutes">
 
-                </div>
-              </div>
+                      <div class="container px-3 py-4">
+                
+                        <h2>Portfolio</h2>
+                          <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 px-2 py-1">
+                            
+                            <div class="col">
+                    
+                              <div class="card card-cover h-100 text-white about-cards rounded-5 shadow-lg">
+                                <div class="d-flex flex-column h-100 bus-card embed-responsive embed-responsive-4by3 p-3 text-white text-shadow-1">
+                                  <h2 class="mt-2 mb-2 display-8 lh-1 fw-bold">Real Time Bus Routes</h2>
+                                  <iframe src="/Real-Time-Bus-Tracker" class="bus-page h-100 embed-responsive-item"> </iframe>
+                                </div>
+                              </div>
+                            
+                            </div>                
+                      
+                            <div class="col">
+                              <div class="card card-cover code-pen-frames h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                                <div class="d-flex flex-column h-100 text-w3 phite text-shadow-1">
+                                  <p class="codepen" data-height="320" data-theme-id="dark" data-default-tab="result" data-slug-hash="wvqqXBp" data-user="billconley01" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                    <span>See the Pen <a href="https://codepen.io/billconley01/pen/wvqqXBp">
+                                    Untitled</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
+                                    on <a href="https://codepen.io">CodePen</a>.</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                      
+                          
+                          
+                          </div>
+                        </div>
 
-        </div>
 
-        <div class="tab-pane fade" role="tabpanel" id="eyes">
-
-          <div class="container px-4 py-5">
-                <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-5">
-
-                  <div class="col">
-                    <div class="card card-cover h-100 overflow-hidden text-white about-cards rounded-5 shadow-lg">
-                      <div class="d-flex flex-column h-100 p-3 text-white text-shadow-1">
-                        <h2 class="mt-2 mb-2 display-6 lh-1 fw-bold">Bus Routes</h2>
-                        <p>Hello, my name is Eyes</p>
-                      </div>
                     </div>
-                  </div>  
 
-                </div>
+                    <div class="tab-pane fade" role="tabpanel" id="eyes">
+
+                      <div class="container px-3 py-4">
+                
+                        <h2>Portfolio</h2>
+                          <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 px-2 py-1">
+                            <div class="col">
+                    
+                              <div class="card card-cover h-100 text-white about-cards rounded-5 shadow-lg">
+                                <div class="d-flex flex-column h-100 eye-card embed-responsive embed-responsive-4by3 p-3 text-white text-shadow-1">
+                                  <h2 class="mt-2 mb-2 display-8 lh-1 fw-bold">Eyes</h2>
+                                  <iframe src="/Eyes" class="eyes-page px-4 pt-4 pb-5 h-100 embed-responsive-item"> </iframe>
+                                </div>
+                              </div>
+                            
+                            </div>              
+                            <div class="col">
+                              <div class="card card-cover code-pen-frames h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
+                                <div class="d-flex flex-column h-100 text-white text-shadow-1">
+                                  <p class="codepen" data-height="320" data-default-tab="result" data-slug-hash="vYJJJaL" data-user="billconley01" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                    <span>See the Pen <a href="https://codepen.io/billconley01/pen/vYJJJaL">
+                                    Pacman</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
+                                    on <a href="https://codepen.io">CodePen</a>.</span>
+                                  </p>
+                  
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col">
+                              
+                              <div class="card card-cover h-100 text-white about-cards rounded-5 shadow-lg">
+                                <div class="d-flex flex-column h-100 pacman-card embed-responsive embed-responsive-4by3 p-3 text-white text-shadow-1">
+                                  <h2 class="mt-2 mb-2 display-8 lh-1 fw-bold">Pacman</h2>
+                                  <iframe src="/PacMan" class="pacman-page h-100 embed-responsive-item"> </iframe>
+                                </div>
+                              </div>
+                            
+                            </div>        
+                      
+                            <div class="col">
+                              <div class="card card-cover code-pen-frames h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
+                                <div class="d-flex flex-column h-100 text-w3 phite text-shadow-1">
+                                  <p class="codepen" data-height="320" data-theme-id="dark" data-default-tab="result" data-slug-hash="wvqqXBp" data-user="billconley01" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                    <span>See the Pen <a href="https://codepen.io/billconley01/pen/wvqqXBp">
+                                    Untitled</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
+                                    on <a href="https://codepen.io">CodePen</a>.</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                      
+                            <div class="col">
+                              <div class="card card-cover code-pen-frames h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
+                                <div class="d-flex flex-column h-100 text-shadow-1">
+                                  <p class="codepen" data-height="320"  data-theme-id="dark" data-default-tab="result" data-slug-hash="ExvvRPY" data-user="billconley01" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                    <span>See the Pen <a href="https://codepen.io/billconley01/pen/ExvvRPY">
+                                    Eyes</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
+                                    on <a href="https://codepen.io">CodePen</a>.</span>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          
+                          </div>
+                        </div>
+
+
+                    </div>
+
             </div>
 
-        </div>
-
-      </div>
-
-      <footer>@2021</footer>
- 
-  </body>
+            <footer class="footer row align-top border-top ms-auto">
+              <span class="col text-muted">&copy;2021</span> 
+              <ul class="col list-group list-group-horizontal me-auto" id="tech-icons">
+                <i class="list-group-item devicon-html5-plain-wordmark colored"></i>
+                <i class="list-group-item devicon-css3-plain-wordmark colored"></i>
+                <i class="list-group-item devicon-bootstrap-plain-wordmark colored"></i>
+                <i class="list-group-item devicon-javascript-plain colored"></i>
+                <i class="list-group-item devicon-react-original-wordmark colored"></i>
+                <i class="list-group-item devicon-nodejs-plain-wordmark colored"></i>
+                <i class="list-group-item devicon-java-plain-wordmark colored"></i>
+                <i class="list-group-item devicon-spring-plain-wordmark colored"></i>                                   
+                <i class="list-group-itemdevicon-github-original colored"></i>
+                <i class="list-group-item devicon-linkedin-plain colored"></i>
+                <i class="list-group-item devicon-mysql-plain-wordmark colored"></i>
+                <i class="list-group-item devicon-mongodb-plain-wordmark colored"></i>
+                <i class="list-group-item devicon-npm-original-wordmark colored"></i>
+                <i class="list-group-item devicon-docker-plain-wordmark colored"></i>
+                <i class="list-group-item devicon-jest-plain colored"></i>
+                </ul>
+            </footer>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          </div>
+    </body>
 </html>

@@ -8,29 +8,36 @@ document.addEventListener("DOMContentLoaded", function(){
        if(pageLink !=="home"){
         page.classList.remove('show');
         element.classList.remove('active');
-        console.log("other");
        }
-       else console.log("home");
         element.addEventListener("click", function(event){
-            console.log(pageLink);
             event.preventDefault();
             tabList.forEach(item =>{
                 let otherLink = item.getAttribute('href').substring(1);
                 if(otherLink !== pageLink){
                     page = document.getElementById(otherLink);
-                    console.log("removing classes from " + otherLink);
                     item.classList.remove('active');
                     page.classList.remove('active');
                     page.classList.remove('show');
+                    console.log("Removed show and active"  + otherLink);
                 }
                 else  {
-                    console.log("adding classes to " + otherLink);
                     element.classList.add('active');
                     page = document.getElementById(otherLink);
                     page.classList.add('show');
                     page.classList.add('active');
+                    console.log("Added show and active"  + otherLink);
                 }
             });
         });
     });
 });
+/*
+window.addEventListener('load', function(){
+    const template = document.querySelector('link[rel="import"]').getElementsByTagName("template")[0];
+        if(template){
+            console.log("link not null " + template);
+        }
+    const data = document.getElementById('template-container');
+    data.appendChild(template.cloneNode());
+           }, false);
+           */
