@@ -36,6 +36,6 @@ const template = document.querySelector('link[rel="import"]').getElementsByTagNa
         console.log("link not null " + template);
     }
 const data = document.getElementById('template-container')
-data.appendChild(template.cloneNode(true));
+data.appendChild(template.cloneNode());
        }, false);
     
