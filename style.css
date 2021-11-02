@@ -1,5 +1,4 @@
 
-
 body,span, header, body, nav, footer, main{
       font-family: 'Handlee', cursive;
       font-size: 14px;
@@ -58,7 +57,24 @@ a.nav-link {
   color:  #264653;
   width: auto;
 }
-
+.pacman-card{
+  background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:460px;
+}
+.eyes-card{
+  background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:460px;
+}
+.bus-card{
+  background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:460px;
+}
 .tab-pane{
   display: block;
   height: 100%;
@@ -71,18 +87,21 @@ a.nav-link {
 }
 .pacman-page{
     min-width: 360px;
-    min-height:600px;
+    max-height:440px;
 }
 .bus-page{
-    min-width: 360px;
-    min-height:600px;
+     min-width: 360px;
+    max-height:440px;
 }
 .eyes-page{
-    min-width: 360px;
-    min-height:600px;
+     min-width: 360px;
+    max-height:440px;
 }
 .code-pen-frames{
-min-width: 360px;
+ background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:460px;
 }
 .landing-page-text{
 font-family: 'Handlee', cursive;

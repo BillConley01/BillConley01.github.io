@@ -31,13 +31,3 @@ document.addEventListener("DOMContentLoaded", function(){
         });
     });
 });
-/*
-window.addEventListener('load', function(){
-    const template = document.querySelector('link[rel="import"]').getElementsByTagName("template")[0];
-        if(template){
-            console.log("link not null " + template);
-        }
-    const data = document.getElementById('template-container');
-    data.appendChild(template.cloneNode());
-           }, false);
-           */
