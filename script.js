@@ -34,7 +34,7 @@ window.addEventListener('load', function(){
 let link = document.querySelector('link[rel="import"]');
     if(link){
         console.log("link not null " + link);
-        let template = link.import.querySelector('template');
+        let template = link.querySelector('template');
         let clone = document.importNode(template.content, true);
         document.getElementById('template-container').appendChild(clone);
     }
