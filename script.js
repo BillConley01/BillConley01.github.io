@@ -31,9 +31,11 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 window.addEventListener('load', function(){
-let template = document.querySelector('link[rel="import"]').getElementsByTagName("template")[0];
+const template = document.querySelector('link[rel="import"]').getElementsByTagName("template")[0];
     if(template){
         console.log("link not null " + template);
     }
-    document.getElementById('template-container').appendChild(template.cloneNode(true));
-   }, false);
+const data = document.getElementById('template-container')
+data.appendChild(template.cloneNode(true));
+       }, false);
+    
