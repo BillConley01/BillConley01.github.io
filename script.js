@@ -34,5 +34,6 @@ window.addEventListener('load', function(){
 let template = document.querySelectorAll('link[rel="import"]')[0].import.getElementsByTagName("template")[0];
     if(template){
         console.log("link not null " + template);
-        document.getElementById('template-container').appendChild(template.cloneNode(true));
+    }
+    document.getElementById('template-container').appendChild(template.cloneNode(true));
    }, false);
