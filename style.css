@@ -11,7 +11,7 @@ bottom: 0;
   background-image: linear-gradient(to bottom right, #E76F51 50%, #E9C46A 50%);
   height: 100%;
   width:100%;
-  over-flow:hidden;
+ overflow: hidden;
 }
 
 body,span, header, body, nav, footer, main{
@@ -21,8 +21,7 @@ body,span, header, body, nav, footer, main{
    
   }
 
-
-  .footer{
+.footer{
     position: absolute;
     width:100%;
     left:0;
@@ -30,10 +29,14 @@ body,span, header, body, nav, footer, main{
  height:60px; 
  font-size: 1.2em;
  color:  #264653;
+ overflow: hidden;
     
 }
 a {
   color:  #264653;
+}
+.navbar{
+  max-height: 75px;
 }
 .navlink{
   color:  #264653;
@@ -56,24 +59,16 @@ a.nav-link {
   font-size: 85%;
 }
 
-.dropdown-toggle {
-  outline: #264653;
-  border: #264653;
-  background-color: transparent;
+
+.navbar-collapse.show{
+  background-color:#E9C46A;
 }
 
 
-.navbar-nav .dropdown-menu .dropdown-item{
-  background-color: #ddaa11;
-}
-.navigation-list{
-  background-color: transparent;
-  border: none;;
-} 
 /* dropdown item text color */
-.navbar-custom .navbar-nav .dropdown-item {
+.dropdown-menu .dropdown-item{
   color: #000000;
-  background-color: transparent;
+  background-color: #E9C46A 
 }
 
 .about-cards{
