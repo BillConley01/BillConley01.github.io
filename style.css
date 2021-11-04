@@ -154,6 +154,7 @@ a.nav-link {
   position:relative;
   height: 100%;
   width:100%;
+overflow-x: hidden;
   overflow-y: auto;
   scrollbar-color: #E76F51 #E9C46A;
 }
