@@ -11,7 +11,7 @@ bottom: 0;
   background-image: linear-gradient(to bottom right, #E76F51 50%, #E9C46A 50%);
   height: 100%;
   width:100%;
-  scrollbar-color: #E76F51;
+  over-flow:hidden;
 }
 
 body,span, header, body, nav, footer, main{
@@ -21,14 +21,7 @@ body,span, header, body, nav, footer, main{
    
   }
 
-  /*
-  span, header, body, nav, footer, main{
-    background-image: linear-gradient(to right, #6f8680, #56a894);
-   /* background-color: lightseagreen;
-    color:  slateblue;*/
-/* 
-  }
-  */
+
   .footer{
     position: absolute;
     width:100%;
@@ -92,7 +85,7 @@ a.nav-link {
   margin-left: 16px;
   width: auto;
   height:auto;
-  margin-top: 16px;
+  margin-top: auto;
 
   
   
@@ -175,15 +168,12 @@ a.nav-link {
 
 }
 .pacman-page{
-  min-width: 340px;
   max-height:440px;
 }
 .bus-page{
-   min-width: 360px;
   max-height:440px;
 }
 .eyes-page{
-   min-width: 360px;
   max-height:440px;
 }
 .code-pen-frames{
