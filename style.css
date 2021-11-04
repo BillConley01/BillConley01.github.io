@@ -63,7 +63,7 @@ a.nav-link {
 .navbar-collapse.show{
   background-color:#E9C46A;
 }
-.navbar-collapse..collapsing{
+.navbar-collapse.collapsing{
   background-color:#E9C46A;
 }
 
