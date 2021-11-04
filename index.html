@@ -6,31 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <link href="./style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <title>Bill Conley</title>
   </head>
     <body>
-          <div class="diagonal-box container-fluid">
-            <nav class="navbar navbar-expand-lg row ms-3 me-3 mb-2 fs-5 border-bottom" id="nav" aria-label="Navigation Bar">
+      <div class="container-fluid row">
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top w-100  me-0 mb-2 fs-5 border-bottom" id="nav" aria-label="Navigation Bar">
               <div class="container-fluid">
 
-                <a class="navbar-brand fs-3 ms-2 mb-2" href="/"><img src="selfie.jpeg" class="p-1"id="brand-image"> Bill Conley</a>
+                <a class="navbar-brand fs-3 ms-1 me-auto mb-2" href="/"><img src="selfie.jpeg" class="p-1"id="brand-image"> Bill Conley</a>
                 
-                <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navigationbar" aria-controls="navigationbar" aria-expanded="false" aria-label="Hamburger Menu">
-                  <span class="navbar-toggler-icon"></span>
+                <button class="navbar-toggler" id="nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navigationbar" aria-controls="navigationbar" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon bs-dark"></span>
                 </button>
                 
-                <div class="collapse navbar-collapse" id="navigationbar">
-                  <ul class="navigation-list navbar-nav align-text-bottom ms-auto me-4 pr-3 mb-0 pb-0" id="pageTabs">
+                <div class="collapse navbar-collapse ms-5" id="navigationbar">
+                  <ul class="navigation-list navbar-nav align-text-bottom ms-auto mb-0 pb-0" id="pageTabs">
                     <li class="nav-item ms-3 pr-2">
                       <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item ms-3 pr-2">
-                      <a class="nav-link" href="#about-me">About Me</a>
+                      <a class="nav-link" href="#about-me">About</a>
                     </li>
                     <li class="nav-item ms-3 pr-2">
                       <a class="nav-link" href="#education">Education</a>
@@ -38,7 +41,7 @@
                     <li class="nav-item ms-3 pr-2">
                       <a class="nav-link" href="#work-history">Work History</a>
                     </li>
-                    <li class="nav-item align-bottom ms-3 me-2 dropdown">
+                    <li class="nav-item align-bottom ms-3 dropdown">
                       <a class="nav-link dropdown-toggle pr-2" href="#" id="dropdown-1" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
                       <ul class="navigation-list dropdown-menu ms-2" aria-labelledby="dropdown-1">
                         <li><a class="dropdown-item nav-link" href="#pacman" >PacMan</a></li>
@@ -50,25 +53,25 @@
                 </div>
               </div>
             </nav>
-
+          </div>
             <!--   Main Tab View -->
-            <div class="tab-content row py-2">
+            <div class="container-fluid tab-content row w-100 py-2">
 
 
                 <!--   Home panel -->
-                    <div class="tab-pane h-100 fade show active" role="tabpanel" id="home">                
+                    <div class="tab-pane fade show active" role="tabpanel" id="home">                
                       <div class="container h-100">
                         <div class="row row-cols-1 row-cols-lg-2 h-100 w-100 align-items-stretch g-4">              
-                              <div class="d-flex flex-column align-self-start py-3 px-1 mt-4">
-                                <div class="card card-cover h-100 about-cards rounded-5 shadow-lg p-4">
+                              <div class="d-flex flex-column h-40 align-self-start py-3 px-1 mt-5">
+                                <div class="card card-cover about-cards rounded-5 shadow-lg p-3">
                                   <p class="landing-page-text">Hello, my name is Bill Conley. I am a full stack Web Developer/ Software Engineer. I specialize in the MERN stack and the Java Spring framework. Please take a look at my portfolio.</p>
                                 </div>
                                   
                                
                               </div>
                         
-                              <div class="d-flex flex-column align-self-end py-3 px-1 me-auto mb-4">
-                                <div class="card card-cover h-100 about-cards rounded-5 shadow-lg p-4">
+                              <div class="d-flex flex-column h-40 align-self-end py-3 px-1 mb-1">
+                                <div class="card card-cover about-cards rounded-5 shadow-lg p-3">
                                   <p class="landing-page-text align-text-bottom">The only way to do great work is to love what you do. 
                                   If you haven’t found it yet, keep looking. Don’t settle.</p><p class="landing-page-text align-text-bottom">--Steve Jobs</p>
                               </div>
@@ -77,118 +80,199 @@
                       </div>
                     </div>
 
-                    <!--   About Me panel -->
-                      <div class="tab-pane fade" role="tabpanel" id="about-me">
+                    <!--   About panel -->
+                    <div class="container tab-pane fade" role="tabpanel" id="about-me">
+                        
+                        <div class="container h-100">
+                          <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-2">
                           
-                          <div class="container px-3 py-3">
-                            <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-3">
-                            
-                              <div class="col">
-                                <div class="card card-cover h-100 about-cards aligh-items-center rounded-5 shadow-lg">
-                                  <div class="d-flex flex-column p-3" id="selfie">
-                                    <img src="./selfie.jpeg" alt=".selfie" class="selfie m-auto"/> 
-                                  </div>
+                            <div class="col h-auto selfie-col">
+                              <div class="card card-cover about-cards w-75 rounded-5 shadow-lg">
+                                <div class="d-flex flex-column p-3" id="selfie">
+                                  <img src="./selfie.jpeg" alt=".selfie" class="selfie ms-1 me-auto"/> 
+              
+                                  <iframe width="360" height="180" src="https://www.youtube.com/embed/F49Whcyjfgo" alt="video" class="video me-1 ms-auto my-1 py-2"></iframe> 
                                 </div>
+
                               </div>
-
-                              <div class="col">
-                                  <div class="card card-cover h-100 about-cards rounded-5 shadow-lg">
-                                      <div class="d-flex flex-column p-3">
-                                        <h2 class="mt-2 mb-2 display-6 lh-1 fw-bold">About</h2>
-                                        <p>Hello, my name is Bill Conley. Thank you for taking this moment. I have always had a passion for technology, 
-                                          but my journey towards becoming a software developer didn’t officially begin until about 10 years ago after I decided to pursue a college education. </p>
-                                          <p>
-                                          Because of my passion for technology the majority of my electives were in programming and other technology related subjects. 
-                                          While going back to school and working fulltime was challenging at first, I became encouraged because I had found a path towards a career that truly excited me.</p>
-                                          <p>
-                                          After graduating I became more clear in my determination to become a software developer and immediately went on to enroll in and complete 
-                                          a master's program in Software Development. To further prepare myself for this new career, I am currently working on a Professional Certificate 
-                                          Program in full stack development.</p>
-                                          <p>
-                                          Although my previous work history has not been in Software Development, I believe the experience, skills and qualities that I have developed 
-                                          and demonstrated throughout my career are desirable and well suited for a software developer. Examples of these skill are a mindset towards 
-                                          continuous improvement and attention to detail, the ability to take on increasing responsibilities, and the ability to work well in team environments. 
-                                          <p>
-                                          These skills paired with my education have uniquely prepared me for the next step in my journey, obtaining a position developing web applications.
-                                          </p>
-                                      </div>
-                                  </div>
-                              </div> 
-
                             </div>
+
+                            <div class="col about-col">
+                                <div class="card card-cover about-cards rounded-5 shadow-lg">
+                                    <div class="d-flex flex-column p-2">
+                                      <h2 class="mt-21 mb-2 display-6 lh-1 fw-bold">About</h2>
+                                      <p>Hello, my name is Bill Conley. Thank you for taking this moment. I have always had a passion for technology, 
+                                        but my journey towards becoming a software developer didn’t officially begin until about 10 years ago after I decided to pursue a college education. </p>
+                                        <p>
+                                        Because of my passion for technology the majority of my electives were in programming and other technology related subjects. 
+                                        While going back to school and working fulltime was challenging at first, I became encouraged because I had found a path towards a career that truly excited me.</p>
+                                        <p>
+                                        After graduating I became more clear in my determination to become a software developer and immediately went on to enroll in and complete 
+                                        a master's program in Software Development. To further prepare myself for this new career, I am currently working on a Professional Certificate 
+                                        Program in full stack development.</p>
+                                        <p>
+                                        Although my previous work history has not been in Software Development, I believe the experience, skills and qualities that I have developed 
+                                        and demonstrated throughout my career are desirable and well suited for a software developer. Examples of these skill are a mindset towards 
+                                        continuous improvement and attention to detail, the ability to take on increasing responsibilities, and the ability to work well in team environments. 
+                                        <p>
+                                        These skills paired with my education have uniquely prepared me for the next step in my journey, obtaining a position developing web applications.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div> 
                           </div>
-
-                      </div>
-                       <!--   Education panel -->
+                        </div>
+                    </div>
+                      <!--   Education panel -->
                        <div class="tab-pane fade" role="tabpanel" id="education">
-                        <div class="container px-4 py-5">
-                          <h2 class="pb-2 border-bottom">Education</h2>
-                      
-                          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                        <div class="container px-1 py-2">
+                          <h2 class="pb-1">Education</h2>
+                  
+                          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-2">
 
                             <div class="col">
-                              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  
+                              <div class="card card-cover education-card h-100 overflow-hidden rounded-5 shadow-lg" >
+                                <div class="d-flex flex-column h-100 ps-2 py-2 pt-4">
+                                   <p class="align-text-bottom m-0 ms-2">January 2019</p>
+                                  <p class="align-text-bottom m-0 ms-2">Master's Degree, Software Engineering</p> 
+                                  <p class="align-text-bottom m-0 ms-2">Brandeis University - Watham, MA</p>
                                 </div>
                               </div>
                             </div>
                       
                             <div class="col">
-                              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  
+                              <div class="card card-cover education-card h-100 overflow-hidden rounded-5 shadow-lg" >
+                                <div class="d-flex flex-column h-100 ps-2 py-2 pt-4">
+                                  <p class="align-text-bottom m-0 ms-2">May 2015</p>
+                                  <p class="align-text-bottom m-0 ms-2">Bachelor of Art Degree, Business Management</p> 
+                                  <p class="align-text-bottom m-0 ms-2">Eckerd College - St Petersburg, FL</p>
                                 </div>
                               </div>
                             </div>
                       
                             <div class="col">
-                              <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
-                                <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                  
+                              <div class="card card-cover education-card h-100 overflow-hidden rounded-5 shadow-lg" >
+                                <div class="d-flex flex-column h-100 ps-2 py-2 pt-4">
+                                  <p class="align-text-bottom m-0 ms-2">March 2015</p>
+                                  <p class="align-text-bottom m-0 ms-2">90 credit hours 
+                                    <p class="align-text-bottom m-0 ms-2">Software Development Courses</p> 
+                                  <p class="align-text-bottom m-0 ms-2">Baker College - Flint, MI</p>
                                 </div>
                               </div>
                             </div>
 
                           </div>
                         </div>
-
-                    </div>
-                    <!--   Work History panel -->
-                      <div class="tab-pane fade" role="tabpanel" id="work-history">
-                          <div class="container px-4 py-5">
-                            <h2 class="pb-2 border-bottom">Work History</h2>
-                        
-                            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-
-                              <div class="col">
-                                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
-                                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    
-                                  </div>
-                                </div>
-                              </div>
-                        
-                              <div class="col">
-                                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
-                                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    
-                                  </div>
-                                </div>
-                              </div>
-                        
-                              <div class="col">
-                                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" >
-                                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    
-                                  </div>
-                                </div>
-                              </div>
-
-                            </div>
-                          </div>
-
                       </div>
+                    <!--   Work History panel -->
+            <div class="tab-pane fade" role="tabpanel" id="work-history">
+                  <div class="container px-1 py-2">
+                    <h2 class="pb-1">Work History</h2>
+                        
+                    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-1">
+
+                      <div class="col">
+                        <div class="card card-cover experience-card h-100 overflow-hidden rounded-5 shadow-lg" >
+                          <div class="d-flex flex-column h-100 p-1 pb-3 mt-3">
+                            <p class="company">Seminole Electric Cooperative Inc. Feb 2008–  May 2021 </p> 
+                            <p class="plant">Midulla Generating Station - 2X1 501F Combined Cycle Power Plant, five Simple Cycle Units, and a 2 MW Solar field</p>
+                            <p class="head-line">Key Accomplishments</p>
+                            <ul class="bullet-list">
+                              <li>Site achieved over 10 years without a Lost Time Injury or Illness.</li>
+                              <li>Spear Headed development of corporate procedures for Generator Owner NERC Reliability Standard.</li>
+                              <li>Completed preparations for NERC Critical Infrastructure Protection and NERC Reliability Standard Audits.</li> 
+                              <li>Capital projects completed on-budget for the first time for two consecutive years.</li>
+                              <li>Lead the development of procedures and training programs that resulted in better than targeted Forced Outages Rates, 99% Start Up Success, and a 50% reduction in startup time.</li>
+                              <li>With management team, evaluated, selected, and negotiated turbine upgrades and revisions to the site’s Long-Term Parts and Service Agreement resulting in over 20 million in savings to our customers.</li>
+                            </ul>
+                            <p class="head-line">Roles and Responsibilities</p>
+                            <p class="role">Compliance and Technical Support Manager - 2019 - 2021</p>
+                            <p class="experience-role-text">Responsible for providing management and leadership for Safety Excellence, Compliance, Reliability and Aﬀordability initiatives. 
+                              Lead activities impacting Safety, NERC and EHS Compliance, Plant Performance, Plant Chemistry, Capital Project Development, and Engineering.</p>
+                            <p class="role">Operations Manager - 2008 – 2019</p>
+                            <p class="experience-role-text">Provided management and leadership for plant Operations. Responsibilities included ensuring the safe, reliable, eﬀicient, and cost eﬀective operation of all generating units. 
+                              Including budgeting, reports to regulatory agencies, overseeing training programs, human performance management, long term planning, development of site maintenance program, 
+                              capital project management, contract management, and cost control.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="col">
+                        <div class="card card-cover experience-card h-100 overflow-hidden rounded-5 shadow-lg" >
+                          <div class="d-flex flex-column h-100 p-1 pb-3 mt-2">
+                              <p class="company">Public Service Electric and Gas 2003 - 2008 </p> 
+                                <p class="plant">Lawrenceburg Plant - 4x2 GE 7FA 1096 MW Combined Cycle Power Plant. (acquired by AEP in May 2007)</p>
+                                <p class="head-line"> Key Accomplishments</p>
+                                <ul class="bullet-list">
+                                  <li>Supervised a crew of multi-crafted operations and maintenance technicians.</li> 
+                                  <li>Served as Outage Coordinator for annual plant outages.</li>
+                                  <li>Ensured Team met all assigned goals.</li>
+                                  <li>Trained new and junior employees.</li>
+                                  <li>Ensured Team met all assigned goals.</li> 
+                                  <li>Served as a member of the Operations Team for start-up and commissioning.</li> 
+                                  <li>Spent a year in New Jersey at a plant being commissioned, supervising and training a staff of union operators and technicians.</li> 
+                                  <li>Obtained a Third-Class Stationary Engineers License.</li>
+                                </ul>
+                              <p class="head-line">Roles and Responsibilities </p>
+                              <p class="role">Production and Maintenance Supervisor (American Electric Power) 2007 – 2008 </p>
+                              <p class="experience-role-text">Provided front line Leadership and Supervision for the daily activities in support of plant operations and maintenance.</p>
+                              <p class="role">Senior Operations Supervisor (PSEG) - 2003 – 2007</p>
+                              <p class="experience-role-text">Provided Leadership and Supervision for the daily activities associated with the operation of a GE 7FA 4x2 1096 MW Combined Cycle Power Plant.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-3">
+                      <div class="col">
+                        <div class="card card-cover experience-card h-100 overflow-hidden rounded-5 shadow-lg" >
+                          <div class="d-flex flex-column h-100 p-1 pb-3 mt-2">
+                              <p class="company">Calpine Corporation 2000 – 2003 
+                              <p class="plant">Sutter and Acadia Energy Centers</p>
+                              <p class="head-line">Key Accomplishments</p>
+                                <ul class="bullet-list">
+                                <li>Developed and implemented a training and qualification program for all operators.</li>
+                                <li>Developed operation and maintenance procedures used by plant operations and maintenance personnel.</li>
+                                <li>Trained new and junior employees.</li>
+                                <li>Served as a maintenance technician for plant outages.</li>
+                                <li>Developed a keen knowledge of plant systems and equipment.</li>
+                              </ul>
+                              <p class="head-line">Roles and Responsibilities </p>
+                              <p class="role">Lead Operator 2001 - 2003 Acadia Energy Center</p>
+                              <p class="experience-role-text">Responsible for control room and field operations as a member of the operations Team for start-up and commissioning, and commercial operations of a Siemens 501FD2 4X2, 1260 MW Combined Cycle Power Plant.</p> 
+                              <p class="role">Field Operator 2000 - 2001 Sutter Energy Center</p>
+                              <p class="experience-role-text">Responsible for field operations as a member of the operations Team for start-up and commissioning, and commercial operations of a Siemens 501FD2 2X1, 500 MW Combined Cycle Power Plant.</p>
+                              <p class="company">Florida Power and Light 1996 – 2000</p>
+                              <p class="plant">Turkey Point Nuclear Station</p> 
+                              <p class="head-line">Roles and Responsibilities</p>
+                              <p class="role">Senior Nuclear Plant Operator</p>
+                              <p class="experience-role-text">Responsible for the operation of two 780-Megawatt nuclear power plants.</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="col">
+                        <div class="card card-cover experience-card h-100 overflow-hidden rounded-5 shadow-lg" >
+                          <div class="d-flex flex-column h-100 p-1 pb-3 mt-2">
+                              <p class="company">Washington Public Power Supply System 1992 – 1996</p>
+                              <p class="plant">Washington’s Nuclear Plant #2</p>
+                              <p class="head-line">Roles and Responsibilities</p>
+                              <p class="role">Nuclear Plant Operator</p>
+                              <p class="experience-role-text">Responsible for the operation of a 1300-Megawatt nuclear power plant.</p>
+                              <p class="company">Westinghouse Hanford Company 1991 – 1992</p>
+                              <p class="plant">Fast Flux Test Facility</p>
+                              <p class="head-line">Roles and Responsibilities</p>
+                              <p class="role">Operations Technician</p>
+                              <p class="experience-role-text">Responsible for the operation of this government owned test reactor.</p>
+                              <p class="company">US Navy - Submarine Service 1984 – 1990</p>
+                              <p class="plant">USS Los Angeles - Fast Attack Nuclear Submarine</p>
+                              <p class="head-line">Roles and Responsibilities</p>
+                              <p class="role">First Class Machinist Mate</p>
+                              <p class="experience-role-text">Duties included the operation and maintenance of all mechanical systems and components associated with Naval reactor and propulsion systems.</p>    
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                     <!--   Portfolio panel   
                       <div class="tab-pane fade" role="tabpanel" id="overview">
                         
@@ -250,43 +334,43 @@
                       </div>
                       -->      
                     <!--   Pacman panel -->
-        <div class="tab-pane fade" role="tabpanel" id="pacman">
+                  <div class="tab-pane fade" role="tabpanel" id="pacman">
                     
-                      <div class="container px-1 py-2">
+                    <div class="container px-1 py-2">
+              
+                      <h2>Pacman</h2>
+                        <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 px-2 py-1">
+                          
+                          <div class="col">
+                            <div class="card card-cover code-pen-frames rounded-5 shadow-lg">
+                              <div class="d-flex flex-column h-100 p-2">
+                                <p class="codepen" data-height="440" data-default-tab="result" data-slug-hash="vYJJJaL" data-user="billconley01" style="height: 440px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                  <span>See the Pen <a href="https://codepen.io/billconley01/pen/vYJJJaL">
+                                  Pacman</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
+                                  on <a href="https://codepen.io">CodePen</a>.</span>
+                                </p>
                 
-                        <h2>Pacman</h2>
-                          <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 px-2 py-1">
-                            
-                            <div class="col">
-                              <div class="card card-cover code-pen-frames rounded-5 shadow-lg">
-                                <div class="d-flex flex-column h-100 p-2">
-                                  <p class="codepen" data-height="440" data-default-tab="result" data-slug-hash="vYJJJaL" data-user="billconley01" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                                    <span>See the Pen <a href="https://codepen.io/billconley01/pen/vYJJJaL">
-                                    Pacman</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
-                                    on <a href="https://codepen.io">CodePen</a>.</span>
-                                  </p>
-                  
-                                </div>
                               </div>
                             </div>
-                            <div class="col">
-                              
-                              <div class="card card-cover pacman-card rounded-5 shadow-lg">
-                                <div class="d-flex flex-column h-100 pacman-col embed-responsive embed-responsive-4by3 p-2">
-                                  <iframe src="/PacMan" class="pacman-page h-100 embed-responsive-item"> </iframe>
-                                </div>
-                              </div>
-                            
-                            </div>        
-                          
                           </div>
+                          <div class="col">
+                            
+                            <div class="card card-cover pacman-card rounded-5 shadow-lg">
+                              <div class="d-flex flex-column h-100 pacman-col embed-responsive embed-responsive-4by3 p-2">
+                                <iframe src="/PacMan" class="pacman-page h-100 embed-responsive-item"> </iframe>
+                              </div>
+                            </div>
+                          
+                          </div>        
+                        
                         </div>
+                      </div>
 
-                    </div>
-
+                  </div>
+                     <!--   Bus route panel -->
                     <div class="tab-pane fade" role="tabpanel" id="busroutes">
 
-                      <div class="container px-3 py-4">
+                      <div class="container px-1 py-2">
                 
                         <h2>Real Time Bus Routes</h2>
                           <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 px-2 py-1">
@@ -294,7 +378,7 @@
                             <div class="col">
                               <div class="card card-cover code-pen-frames rounded-5 shadow-lg">
                                 <div class="d-flex flex-column h-100 p-2">
-                                  <p class="codepen" data-height="440" data-theme-id="dark" data-default-tab="result" data-slug-hash="wvqqXBp" data-user="billconley01" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                  <p class="codepen" data-height="440" data-theme-id="dark" data-default-tab="result" data-slug-hash="wvqqXBp" data-user="billconley01" style="height: 440px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                                     <span>See the Pen <a href="https://codepen.io/billconley01/pen/wvqqXBp">
                                     Untitled</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
                                     on <a href="https://codepen.io">CodePen</a>.</span>
@@ -305,8 +389,8 @@
                             
                            <div class="col">
                               
-                              <div class="card card-cover eyes-card rounded-5 shadow-lg">
-                                <div class="d-flex flex-column h-100 pacman-col embed-responsive embed-responsive-4by3 p-2">
+                              <div class="card card-cover bus-card rounded-5 shadow-lg">
+                                <div class="d-flex flex-column h-100 bus-col embed-responsive embed-responsive-4by3 p-2">
                                   <iframe src="/Real-Time-Bus-Tracker" class="bus-page h-100 embed-responsive-item"> </iframe>
                                 </div>
                               </div>
@@ -318,10 +402,10 @@
 
 
                     </div>
-
+                    <!--   Eyes panel -->
                     <div class="tab-pane fade" role="tabpanel" id="eyes">
 
-                      <div class="container px-3 py-4">
+                      <div class="container px-1 py-2">
                 
                         <h2>Eyes</h2>
                           <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 px-2 py-1">
@@ -329,7 +413,7 @@
                              <div class="col">
                               <div class="card card-cover code-pen-frames rounded-5 shadow-lg">
                                 <div class="d-flex flex-column h-100 p-2">
-                                   <p class="codepen" data-height="440"  data-theme-id="dark" data-default-tab="result" data-slug-hash="ExvvRPY" data-user="billconley01" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                                   <p class="codepen" data-height="440"  data-theme-id="dark" data-default-tab="result" data-slug-hash="ExvvRPY" data-user="billconley01" style="height: 440px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
                                       <span>See the Pen <a href="https://codepen.io/billconley01/pen/ExvvRPY">
                                       Eyes</a> by Bill Conley (<a href="https://codepen.io/billconley01">@billconley01</a>)
                                       on <a href="https://codepen.io">CodePen</a>.</span>
@@ -341,7 +425,7 @@
                        
                             <div class="col">
                               
-                              <div class="card card-cover h-100 text-white eyes-card rounded-5 shadow-lg">
+                              <div class="card card-cover eyes-card rounded-5 shadow-lg">
                                 <div class="d-flex flex-column h-100 eyes-col embed-responsive embed-responsive-4by3 p-2">
                                   <iframe src="/Eyes" class="eyes-page h-100 embed-responsive-item"> </iframe>
                                 </div>
@@ -356,31 +440,38 @@
                     </div>
 
             </div>
-
-            <footer class="footer row align-top border-top ms-auto">
-              <span class="col text-muted">&copy;2021</span> 
-              <ul class="col list-group list-group-horizontal me-auto" id="tech-icons">
-                <i class="list-group-item devicon-html5-plain-wordmark colored"></i>
-                <i class="list-group-item devicon-css3-plain-wordmark colored"></i>
-                <i class="list-group-item devicon-bootstrap-plain-wordmark colored"></i>
-                <i class="list-group-item devicon-javascript-plain colored"></i>
-                <i class="list-group-item devicon-react-original-wordmark colored"></i>
-                <i class="list-group-item devicon-nodejs-plain-wordmark colored"></i>
-                <i class="list-group-item devicon-java-plain-wordmark colored"></i>
-                <i class="list-group-item devicon-spring-plain-wordmark colored"></i>                                   
-                <i class="list-group-itemdevicon-github-original colored"></i>
-                <!--
-                <i class="list-group-item devicon-linkedin-plain colored"></i>
-                -->
-                
-                <i class="list-group-item devicon-mysql-plain-wordmark colored"></i>
-                <i class="list-group-item devicon-mongodb-plain-wordmark colored"></i>
-                <i class="list-group-item devicon-docker-plain-wordmark colored"></i>
-           
-                </ul>
-            </footer>
-            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+          <div class="container-fluid row px-2">
+                      <footer class="footer align-top border-top">
+                       
+                        <ul class="col list-group list-group-horizontal ms-auto me-0" id="tech-icons">&copy;2021
+                          <i class="list-group-item devicon-html5-plain-wordmark colored ms-auto"></i>
+                          <i class="list-group-item devicon-css3-plain-wordmark colored"></i>
+                           <!--
+                          <i class="list-group-item devicon-bootstrap-plain-wordmark colored"></i>
+                           -->
+                          <i class="list-group-item devicon-javascript-plain colored"></i>
+                           <!--
+                          <i class="list-group-item devicon-react-original-wordmark colored"></i>
+                          <i class="list-group-item devicon-nodejs-plain-wordmark colored"></i>
+                            -->
+                          <i class="list-group-item devicon-java-plain-wordmark colored"></i>
+                          <i class="list-group-item devicon-spring-plain-wordmark colored"></i>   
+                           <!--                                
+                          <i class="list-group-itemdevicon-github-original colored"></i>
+                           -->
+                          <!--
+                          <i class="list-group-item devicon-linkedin-plain colored"></i>
+                          -->
+                          
+                          <i class="list-group-item devicon-mysql-plain-wordmark colored"></i>
+                          <i class="list-group-item devicon-mongodb-plain-wordmark colored"></i>
+                          <i class="list-group-item devicon-docker-plain-wordmark colored"></i>
+                    
+                          </ul>
+                      </footer>
           </div>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
  
   </body>
 </html>
