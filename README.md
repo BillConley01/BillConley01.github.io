@@ -36,8 +36,8 @@
 <a href="https://github.com/BillConley01/Real-Time-Bus-Tracker"><img src="https://github.com/BillConley01/Real-Time-Bus-Tracker/blob/main/busroute.jpg"></a>
 <h3>Take a Look at these Projects in action by clicking the links below</h3>
 <ul>
+   <li><a href="https://BillConley01.github.io/Eyes/#README.md">Eyes</a></li>
   <li><a href="https://BillConley01.github.io/PacMan/#README.md">PacMan</a></li>
   <li><a href="https://BillConley01.github.io/Real-Time-Bus-Tracker/#README.md">Real Time Bus Tracker</a></li>
-  <li><a href="https://BillConley01.github.io/Eyes/#README.md">Eyes</a></li>
  </ul>
 
