@@ -18,10 +18,10 @@
   </head>
     <body>
       <div class="container-fluid row">
-            <nav class="navbar navbar-expand-lg navbar-light sticky-top w-100  me-0 mb-2 fs-5 border-bottom" id="nav" aria-label="Navigation Bar">
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top w-100  me-0 fs-5 border-bottom" id="nav" aria-label="Navigation Bar">
               <div class="container-fluid">
 
-                <a class="navbar-brand fs-3 ms-1 me-auto mb-2" href="/"><img src="selfie.jpeg" class="p-1"id="brand-image"> Bill Conley</a>
+                <a class="navbar-brand fs-3 ms-1 me-auto" href="/"><img src="selfie.jpeg" class="p-1"id="brand-image"> Bill Conley</a>
                 
                 <button class="navbar-toggler" id="nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navigationbar" aria-controls="navigationbar" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon bs-dark"></span>
@@ -60,7 +60,7 @@
 
                 <!--   Home panel -->
                     <div class="tab-pane fade show active" role="tabpanel" id="home">                
-                      <div class="container h-100">
+                    
                         <div class="row row-cols-1 row-cols-lg-2 h-100 w-100 align-items-stretch g-4">              
                               <div class="d-flex flex-column h-40 align-self-start py-3 px-1 mt-5">
                                 <div class="card card-cover about-cards rounded-5 shadow-lg p-3">
@@ -77,26 +77,29 @@
                               </div>
                               </div>
                         </div>
-                      </div>
                     </div>
 
                     <!--   About panel -->
                     <div class="container tab-pane fade" role="tabpanel" id="about-me">
                         
-                        <div class="container h-100">
                           <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-2">
                           
-                            <div class="col h-auto selfie-col">
-                              <div class="card card-cover about-cards w-75 rounded-5 shadow-lg">
-                                <div class="d-flex flex-column p-3" id="selfie">
-                                  <img src="./selfie.jpeg" alt=".selfie" class="selfie ms-1 me-auto"/> 
-              
-                                  <iframe width="360" height="180" src="https://www.youtube.com/embed/F49Whcyjfgo" alt="video" class="video me-1 ms-auto my-1 py-2"></iframe> 
+                            <div class="col d-flex flex-column">
+                              <div class="row selfie-row">
+                                <div class="card card-cover about-cards video-cards rounded-5 shadow-lg">
+                                  <div class="d-flex flex-column" id="selfie">
+                                    <iframe src="https://www.youtube.com/embed/F49Whcyjfgo" alt="video" class="video"></iframe> 
+                                 </div>
                                 </div>
-
+                    
+                                <div class="card card-cover about-cards selfie-cards rounded-5 shadow-lg">
+                                  <div class="d-flex flex-column selfie-col" id="selfie">
+                                    <img src="./selfie.jpeg" alt=".selfie" class="selfie"/> 
+                                  </div>
+                                </div>
                               </div>
-                            </div>
-
+                             
+                          </div>
                             <div class="col about-col">
                                 <div class="card card-cover about-cards rounded-5 shadow-lg">
                                     <div class="d-flex flex-column p-2">
@@ -121,7 +124,7 @@
                                 </div>
                             </div> 
                           </div>
-                        </div>
+
                     </div>
                       <!--   Education panel -->
                        <div class="tab-pane fade" role="tabpanel" id="education">
