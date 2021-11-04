@@ -71,10 +71,12 @@ a.nav-link {
 .dropdown-menu{
   color:#264653;
   background-color: #E9C46A; 
+  border:none; 
 }
 .dropdown-item{
   color:#264653;
   background-color: #E9C46A; 
+  border:none; 
 }
 .about-cards{
   background-color: #F4A261;
