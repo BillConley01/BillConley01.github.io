@@ -61,7 +61,9 @@ a.nav-link {
   border: #264653;
   background-color: transparent;
 }
-.navbar-custom .navbar-nav .dropdown-menu {
+
+
+.navbar-nav .dropdown-menu .dropdown-item{
   background-color: #ddaa11;
 }
 .navigation-list{
