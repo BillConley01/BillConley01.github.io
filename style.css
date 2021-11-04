@@ -63,7 +63,9 @@ a.nav-link {
 .navbar-collapse.show{
   background-color:#E9C46A;
 }
-
+.navbar-collapse.collapse{
+  background-color:#E9C46A;
+}
 
 
 .dropdown-menu{
