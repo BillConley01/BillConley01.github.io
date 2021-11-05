@@ -195,7 +195,11 @@ overflow-x: hidden;
 font-size: 1.5em;
 flex-wrap: wrap;
 }
-
+.portfolio-text{
+  font-family: 'Patrick Hand', cursive;
+font-size: 1.5em;
+flex-wrap: wrap;
+}
  /*
 .diagonal-box {
 position: absolute;
