@@ -88,46 +88,57 @@ a.nav-link {
 
 .selfie-cards {
 
-  align-content: center;
-  align-items: center;
   width: auto;
   height:auto;
   margin-top: auto; 
-  min-width: 180px;
+  min-width: fit-content;
   
 }
+.video-column{
+  width: 28%;
+}
+.selfie-column{
+  width: 22%;
+  min-width: fit-content;
 
+}
+.about-col{
+  width: 50%;
+
+}
 
 .video-cards {
-  margin-left: 16px;
-  width: auto;
+    width: auto;
   height:auto;
   margin-bottom: auto;
+  min-width: fit-content;
   
 }
 .selfie{
-  margin-left: 16px;
-  width:170px;
-  height:200px;
   margin-top: 8px;
   margin-bottom: 8px;
+  align-self: center;
   margin-left: auto;
   margin-right: auto;
+  min-width: fit-content;
 }
 
 .video{
-  width:300px;
-  height:200px;
+  width:95%;
+  height:100%;
   margin-top: 8px;
   margin-bottom: 8px;
   margin-left: auto;
   margin-right: auto;
 
 }
-.selfie-row{
-  align-content: stretch;
-}
 
+.game-card{
+  background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:460px;
+}
 .pacman-card{
   background-color: #F4A261;
   color:  #264653;
@@ -149,7 +160,8 @@ a.nav-link {
 .education-card{
   background-color: #F4A261;
   color:  #264653;
-  width: 300px;
+ margin: auto;
+ min-width: fit-content;
   height:460px;
   font-size: 1.5em;
 } 
@@ -193,23 +205,14 @@ overflow-x: hidden;
 .landing-page-text{
   font-family: 'Patrick Hand', cursive;
 font-size: 1.5em;
-flex-wrap: wrap;
+margin: auto;
 }
 .portfolio-text{
   font-family: 'Patrick Hand', cursive;
 font-size: 1.5em;
-flex-wrap: wrap;
-  margin:auto;
+margin: 1.5em;
 }
- /*
-.diagonal-box {
-position: absolute;
-top:0;
-left:0;
-bottom: 0;
- background-image: linear-gradient(to bottom right, #E76F51 50%, #E9C46A 50%);
-}
-*/
+
 .content {
  margin: 0 auto;
  position: relative;
@@ -224,19 +227,11 @@ bottom: 0;
 .list-group-item{
   background-color: transparent;
   font-size: 2em;
+  padding-right: 1.5em;
   border: none;
 }
 
 
-/*
-.selfie-col {
-  width:40%
-  
-}
-.about-col{
-  width:60%;
-}
-*/
 
 .company{
 text-align: left;
@@ -283,3 +278,56 @@ text-decoration: underline;
   margin-top: 0;
   margin-bottom: 0;
 }
+.icon-links{
+  color:  #264653;
+  border: none;
+}
+
+.linkedin{
+  width: 200%;
+  height: 100%;
+
+}
+.email{
+  width: 200%;
+  height: 100%;
+
+}
+.github{
+  width: 200%;
+  height: 100%;
+
+
+}
+@media only screen and (max-width: 992px) {
+
+  .game-card{
+    height: fit-content;
+  }
+  
+  .video-column{
+    width: auto;
+    min-width: fit-content;
+  }
+  .selfie-column{
+    width: auto;
+    min-width: fit-content;
+  }
+  .about-col{
+    width: auto;
+  
+  }
+.ed-col{
+  width: auto;
+  max-width: 100%;
+  margin: 16px;
+}
+
+.education-card{
+ width: 50%;
+  min-width: fit-content;
+  padding-left: 16px;
+  margin: 16px;
+} 
+
+} 
