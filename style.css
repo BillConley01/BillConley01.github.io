@@ -83,15 +83,17 @@ a.nav-link {
   color:  #264653;
   width: auto;
   height:100%;
+  min-height: fit-content;
 }
 
 .selfie-cards {
-  margin-left: 16px;
+
+  align-content: center;
+  align-items: center;
   width: auto;
   height:auto;
-  margin-top: auto;
-
-  
+  margin-top: auto; 
+  min-width: 180px;
   
 }
 
