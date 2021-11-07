@@ -5,42 +5,68 @@ html {
 }
 body {
   position: absolute;
-top:0;
-left:0;
-bottom: 0;
+  top:0;
+  left:0;
+  bottom: 0;
   background-image: linear-gradient(to bottom right, #E76F51 50%, #E9C46A 50%);
   height: 100%;
   width:100%;
- overflow: hidden;
+  overflow: hidden;
 }
 
-body,span, header, body, nav, footer, main{
-  font-family: 'Patrick Hand', cursive;
-      font-size: 14px;
-      color:  #264653;
-   
-  }
+a,
+body,
+span, 
+header, 
+body, 
+nav, 
+footer, 
+main {
+  font-family: 'Crimson Text', serif;
+  font-size: 14px;
+  color:  #264653;
+ }
 
 .footer{
-    position: absolute;
-    width:100%;
-    left:0;
-    bottom:0;
- height:60px; 
- font-size: 1.2em;
- color:  #264653;
- overflow: hidden;
-    
-}
-a {
+  position: absolute;
+  width:100%;
+  left:0;
+  bottom:0;
+  height:60px; 
+  font-size: 1.2em;
   color:  #264653;
+  overflow: hidden; 
 }
+
 .navbar{
   max-height: 75px;
 }
+
 .navlink{
   color:  #264653;
+  font-size: 1.5em!;
 }
+
+.navbar-collapse.show{
+  background-color:#E9C46A;
+}
+
+.navbar-collapse.collapsing{
+  background-color:#E9C46A;
+}
+
+.dropdown-menu{
+  color:#264653;
+  background-color: #E9C46A; 
+  border:none; 
+}
+
+.dropdown-item{
+  color:#264653;
+  background-color: #E9C46A; 
+  border:none; 
+}
+
 a.nav-link.active {
   text-decoration: underline;
   font-weight: bold;
@@ -50,6 +76,7 @@ a.nav-link.active {
 a.nav-link {
   color:  #264653;
 }
+
 .bi {
   vertical-align: -.125em;
   fill: currentColor;
@@ -60,25 +87,55 @@ a.nav-link {
 }
 
 
-.navbar-collapse.show{
-  background-color:#E9C46A;
+#brand-image{
+  width: 60px;
+  height:60px;
+  border-radius: 50%;
 }
-.navbar-collapse.collapsing{
-  background-color:#E9C46A;
+
+/* Container for content between header and footer */
+.tab-content{
+  position:relative;
+  height: 85%;
+  width:100%;
+  /* Test */
+  overflow-x: auto;
+  overflow-y: auto;
+  scrollbar-color: #E76F51 #E9C46A;
 }
 
 
-.dropdown-menu{
-  color:#264653;
-  background-color: #E9C46A; 
-  border:none; 
+.tab-pane{
+  display: block;
+  position:relative;
+  height: 100%;
+  width:100%;
+    /* Test 
+  overflow-x: hidden;
+  overflow-y: auto;
+ 
+  scrollbar-color: #E76F51 #E9C46A;
+   */
 }
-.dropdown-item{
-  color:#264653;
-  background-color: #E9C46A; 
-  border:none; 
+.home-intro {
+  align-self: flex-start;
+  padding-top: 4em;
+    padding-bottom: 2em;
+
 }
-.about-cards{
+.home-quote {
+  align-self: flex-end;
+  padding-top: 2em;
+    padding-bottom: 4em;
+
+}
+.landing-page-text{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.75em;
+  margin: auto;
+}
+
+.common-cards{
   background-color: #F4A261;
   color:  #264653;
   width: auto;
@@ -86,142 +143,187 @@ a.nav-link {
   min-height: fit-content;
 }
 
-.selfie-cards {
-
-  width: auto;
+.about-cards{
+  margin: auto;
+  padding: 16px;
   height:auto;
-  margin-top: auto; 
-  min-width: fit-content;
-  
+  min-width: fit-content; 
+  font-size: large;
 }
-.video-column{
-  width: 28%;
-}
-.selfie-column{
-  width: 22%;
-  min-width: fit-content;
 
-}
 .about-col{
-  width: 50%;
-
+  min-width: 50%;
 }
 
-.video-cards {
-    width: auto;
-  height:auto;
-  margin-bottom: auto;
-  min-width: fit-content;
-  
+.about-text{
+  font-family: 'Crimson Text', serif;
+  font-size: 1em;
+  padding: .25em;
+  margin: auto;
 }
 .selfie{
-  margin-top: 8px;
-  margin-bottom: 8px;
   align-self: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+}
+
+.selfie-cards {
+  margin: auto;
+  padding: 16px;
+  height:auto;
+  align-items: center;
+  min-width: fit-content; 
+}
+
+.selfie-column{
+  width: 23%;
+  align-items: center;
   min-width: fit-content;
+
 }
 
 .video{
-  width:95%;
-  height:100%;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  margin-left: auto;
-  margin-right: auto;
-
+  margin: auto;
 }
 
-.game-card{
-  background-color: #F4A261;
-  color:  #264653;
-  width: auto;
-  height:460px;
+.video-cards {
+  margin: auto;
+  padding: 16px;
+  height:auto;
+  align-items: center;
+  min-width: fit-content;
 }
-.pacman-card{
-  background-color: #F4A261;
-  color:  #264653;
-  width: auto;
-  height:460px;
+
+.video-column{
+  width: 23%;
+  min-width: fit-content;
 }
-.eyes-card{
-  background-color: #F4A261;
-  color:  #264653;
-  width: auto;
-  height:460px;
-}
-.bus-card{
-  background-color: #F4A261;
-  color:  #264653;
-  width: auto;
-  height:460px;
-}
+
+
+
 .education-card{
   background-color: #F4A261;
   color:  #264653;
- margin: auto;
- min-width: fit-content;
+  margin: auto;
+  min-width: fit-content;
   height:460px;
   font-size: 1.5em;
 } 
+
+
+/* Experience items */
 .experience-card{
   background-color: #F4A261;
   color:  #264653;
   width: auto;
   height:460px;
 }
-.tab-pane{
-  display: block;
-  position:relative;
-  height: 100%;
-  width:100%;
-overflow-x: hidden;
-  overflow-y: auto;
-  scrollbar-color: #E76F51 #E9C46A;
-}
-.tab-content{
-  position:relative;
-  height: 75%;
-  width:100%;
 
+.company{
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
+  }
 
+.plant{
+    text-align: left;
+    margin-left: 1.25em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+.head-line{
+    text-align: left;
+    margin-left: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-decoration: underline;
+  }
+
+.bullet-list{
+    text-align: left;
+    margin-left: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+.experience-text{
+    text-align: left;
+    margin-left: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+.experience-role-text{
+    text-align: left;
+    margin-left: 1.75em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+.role{
+    text-align: left;
+    text-decoration: underline;
+    margin-left: 1.25em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+/* Portfolio items */
+.game-card{
+  background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:460px;
 }
+
+.pacman-card{
+  background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:460px;
+}
+
+.eyes-card{
+  background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:460px;
+}
+
+.bus-card{
+  background-color: #F4A261;
+  color:  #264653;
+  width: auto;
+  height:460px;
+}
+
 .pacman-page{
   max-height:440px;
 }
+
 .bus-page{
   max-height:440px;
 }
+
 .eyes-page{
   max-height:440px;
 }
+
 .code-pen-frames{
   background-color: #F4A261;
-   color:  #264653;
-   width: auto;
-   height:460px;
+  color:  #264653;
+  width: auto;
+  height:460px;
  }
-.landing-page-text{
-  font-family: 'Patrick Hand', cursive;
-font-size: 1.5em;
-margin: auto;
-}
+
 .portfolio-text{
-  font-family: 'Patrick Hand', cursive;
-font-size: 1.5em;
-margin: 1.5em;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5em;
+  margin: 1.5em;
 }
 
-.content {
- margin: 0 auto;
- position: relative;
-}
-#brand-image{
-  width: 60px;
-  height:60px;
-  border-radius: 50%;
-}
 
 
 .list-group-item{
@@ -231,53 +333,6 @@ margin: 1.5em;
   border: none;
 }
 
-
-
-.company{
-text-align: left;
-margin-left: 1em;
-margin-top: 0;
-margin-bottom: 0;
-text-decoration: underline;
-}
-.plant{
-  text-align: left;
-  margin-left: 1.25em;
-  margin-bottom: 0;
-  margin-top: 0;
-}
-.head-line{
-  text-align: left;
-  margin-left: 1em;
-  margin-bottom: 0;
-  margin-top: 0;
-  text-decoration: underline;
-}
-.bullet-list{
-  text-align: left;
-  margin-left: 1em;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.experience-text{
-  text-align: left;
-  margin-left: 1em;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.experience-role-text{
-  text-align: left;
-  margin-left: 1.75em;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-.role{
-  text-align: left;
-  text-decoration: underline;
-  margin-left: 1.25em;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 .icon-links{
   color:  #264653;
   border: none;
@@ -301,6 +356,29 @@ text-decoration: underline;
 }
 @media only screen and (max-width: 992px) {
 
+  a,
+body,
+span, 
+header, 
+body, 
+nav, 
+footer, 
+main {
+  font-size: 12px;
+ }
+
+ .home-intro {
+    align-self: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+  .home-quote {
+    align-self: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
   .game-card{
     height: fit-content;
   }
@@ -317,17 +395,17 @@ text-decoration: underline;
     width: auto;
   
   }
-.ed-col{
-  width: auto;
-  max-width: 100%;
-  margin: 16px;
-}
+  .ed-col{
+    width: auto;
+    max-width: 100%;
+    margin: 16px;
+  }
 
-.education-card{
- width: 50%;
-  min-width: fit-content;
-  padding-left: 16px;
-  margin: 16px;
-} 
+  .education-card{
+  width: 50%;
+    min-width: fit-content;
+    padding-left: 16px;
+    margin: 16px;
+  } 
 
 } 
