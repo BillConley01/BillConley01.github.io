@@ -10,12 +10,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    
    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
-    <!-- DevIcons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
    
     <!-- Custom -->
     <link href="./style.css" rel="stylesheet">
@@ -25,10 +23,10 @@
   </head>
     <body>
       <div class="container-fluid row">
-            <nav class="navbar navbar-expand-lg navbar-light sticky-top w-100  me-0 fs-5 border-bottom" id="nav" aria-label="Navigation Bar">
+            <nav class="navbar navbar-expand-lg navbar-light sticky-top w-100  me-0 ps-0 border-bottom" id="nav" aria-label="Navigation Bar">
               <div class="container-fluid">
 
-                <a class="navbar-brand fs-3 me-auto" href="/"><img src="selfie.jpeg" class="p-1"id="brand-image"> Bill Conley</a>
+                <a class="navbar-brand fs-3  me-auto" href="/"><img src="selfie.jpeg" class="p-1"id="brand-image"> Bill Conley</a>
                 
                 <button class="navbar-toggler ms-auto me-1" id="nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon bs-dark"></span>
@@ -37,24 +35,24 @@
                 <div class="collapse navbar-collapse ms-auto me-1" id="navbarContent">
                   <ul class="navigation-list navbar-nav align-text-bottom ms-auto mb-0 pb-0" id="pageTabs">
                     <li class="nav-item ms-3 pe-2">
-                      <a class="nav-link active" href="#home" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home</a>
+                      <a class="nav-link fs-5 active" href="#home" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Home</a>
                     </li>
                     <li class="nav-item ms-3 pe-2">
-                      <a class="nav-link" href="#about-me" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">About</a>
+                      <a class="nav-link fs-5" href="#about-me" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">About</a>
                     </li>
                     <li class="nav-item ms-3 pe-2">
-                      <a class="nav-link" href="#education" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Education</a>
+                      <a class="nav-link fs-5" href="#education" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Education</a>
                     </li>
                     <li class="nav-item ms-3 pe-2">
-                      <a class="nav-link" href="#work-history" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Work History</a>
+                      <a class="nav-link fs-5" href="#work-history" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Work History</a>
                     </li>
                     <li class="nav-item dropdown align-bottom ms-3">
-                      <a class="nav-link dropdown-toggle pe-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <a class="nav-link fs-5 dropdown-toggle pe-2" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Portfolio</a>
                       <ul class="dropdown-menu navigation-list ms-2" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item nav-link" href="#pacman" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">PacMan</a></li>
-                        <li><a class="dropdown-item nav-link" href="#busroutes" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Bus Routes</a></li>
-                        <li><a class="dropdown-item nav-link" href="#eyes" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Eyes</a></li>
+                        <li><a class="dropdown-item nav-link fs-5" href="#pacman" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">PacMan</a></li>
+                        <li><a class="dropdown-item nav-link fs-5" href="#busroutes" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Bus Routes</a></li>
+                        <li><a class="dropdown-item nav-link fs-5" href="#eyes" data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Eyes</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -63,22 +61,22 @@
             </nav>
           </div>
             <!--   Main Tab View -->
-            <div class="container-fluid tab-content row w-100 py-2">
+            <div class="container-fluid tab-content row">
 
 
                 <!--   Home panel -->
-                     <div class="tab-pane fade show active" role="tabpanel" id="home">                
+                     <div class="tab-pane h-100 fade show active" role="tabpanel" id="home">                
                     
-                        <div class="row row-cols-1 row-cols-lg-2 h-100 w-100 align-items-stretch g-4">              
+                        <div class="row row-cols-1 row-cols-lg-2 h-100 w-100 align-items-stretch py-1 g-1">              
                               
-                            <div class="d-flex flex-column align-self-start py-1 px-1 mt-5">
-                                <div class="card card-cover about-cards rounded-5 shadow-lg m-2 p-5">
+                            <div class="d-flex flex-column home-intro">
+                                <div class="card card-cover common-cards rounded-5 shadow-lg p-3">
                                   <p class="landing-page-text m-auto">Hello, my name is Bill Conley. After a long career in the electrical generation industry, I am determined to begin a new career as a full stack Web Developer/ Software Engineer. I specialize in the MERN stack and the Java Spring framework. Please take a look at my portfolio and feel free to contact me through one of the links in the footer.</p>
                                 </div>                                                                
                               </div>
                         
-                              <div class="d-flex flex-column align-self-end py-1 px-1 mb-1">
-                                <div class="card card-cover about-cards rounded-5 shadow-lg m-2 p-5">
+                              <div class="d-flex flex-column home-quote">
+                                <div class="card card-cover common-cards rounded-5 shadow-lg p-3">
                                   <p class="landing-page-text m-auto">The only way to do great work is to love what you do. 
                                   If you haven’t found it yet, keep looking. Don’t settle.</p><p class="landing-page-text m-auto">--Steve Jobs</p>
                                 </div>
@@ -87,57 +85,58 @@
                       </div>
 
                     <!--   About panel -->
-                    <div class="tab-pane fade" role="tabpanel" id="about-me">
+                    <div class="tab-pane h-100 fade" role="tabpanel" id="about-me">
                         
-                          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-1">
-                          
-                            <div class="col video-column">                           
-                                <div class="card card-cover about-cards video-cards rounded-5 shadow-lg">
-                                  <div class="d-flex flex-column">
-                                    <iframe src="https://www.youtube.com/embed/F49Whcyjfgo" alt="video" class="video"></iframe> 
-                                 </div>
-                                </div>
-                                </div>
-                              <div class="col selfie-column">    
-                                <div class="card card-cover about-cards selfie-cards rounded-5 shadow-lg">
-                                  <div class="d-flex flex-column">
-                                    <img src="./selfie.jpeg" alt=".selfie" width="50%" height="50%"class="selfie"/> 
+                          <div class="row row-cols-1 row-cols-lg-2 row-cols-xlg-3 h-100 w-100 ms-auto g-2 py-4">
+                            <div class="col about-col">
+                              <div class="card card-cover common-cards about-cards rounded-5 shadow-lg">
+                                  <div class="d-flex flex-column p-3">
+                                    <h3 class="mt-1 mb-1 lh-1 fw-bold">About</h3>
+                                    <p class="about-text">Hello, my name is Bill Conley. Thank you for taking a moment to view my web page. Having always had a passion for technology, my journey towards becoming a software developer began about 10 years ago after I decided to pursue a college education. </p>
+                                      <p class="about-text">
+                                      Because of my passion for technology the majority of my electives were in programming and other technology related subjects. 
+                                      While going back to school and working fulltime was challenging at first, I became encouraged because I had found a path towards a career that truly excited me.</p>
+                                      <p class="about-text">
+                                      After graduating I became more clear in my determination to become a software developer and immediately went on to enroll in and complete 
+                                      a master's program in Software Development. To further prepare myself for this new career, I am currently working on a Professional Certificate 
+                                      Program in full stack development.</p>
+                                      <p class="about-text">
+                                      Although my previous work history has not been in Software Development, I believe the experience, skills and qualities that I have developed 
+                                      and demonstrated throughout my career are desirable and well suited for a software developer. Examples of these skill are a mindset towards 
+                                      continuous improvement and attention to detail, the ability to take on increasing responsibilities, and the ability to work well in a team environment. 
+                                      <p class="about-text">
+                                      These skills paired with my education have uniquely prepared me for the next step in my journey, obtaining a position developing web applications.
+                                      </p>
+                                  </div>
+                              </div>
+                            </div> 
+                            <div class="row row-cols-1 row-cols-lg-1 row-cols-xlg-2 ms-auto g-1">
+                                <div class="col selfie-column">    
+                                  <div class="card card-cover common-cards selfie-cards rounded-5 shadow-lg">
+                                    <div class="d-flex flex-column">
+                                      <img src="./selfiex300.png" alt=".selfie" class="selfie"/> 
+                                    </div>
                                   </div>
                                 </div>
-                              </div>
-                            <div class="col about-col">
-                                <div class="card card-cover about-cards rounded-5 shadow-lg">
-                                    <div class="d-flex flex-column p-1">
-                                      <h2 class="mt-2 mb-2 display-6 lh-1 fw-bold">About</h2>
-                                      <p>Hello, my name is Bill Conley. Thank you for taking this moment. Having always had a passion for technology, my journey towards becoming a software developer began until about 10 years ago after I decided to pursue a college education. </p>
-                                        <p>
-                                        Because of my passion for technology the majority of my electives were in programming and other technology related subjects. 
-                                        While going back to school and working fulltime was challenging at first, I became encouraged because I had found a path towards a career that truly excited me.</p>
-                                        <p>
-                                        After graduating I became more clear in my determination to become a software developer and immediately went on to enroll in and complete 
-                                        a master's program in Software Development. To further prepare myself for this new career, I am currently working on a Professional Certificate 
-                                        Program in full stack development.</p>
-                                        <p>
-                                        Although my previous work history has not been in Software Development, I believe the experience, skills and qualities that I have developed 
-                                        and demonstrated throughout my career are desirable and well suited for a software developer. Examples of these skill are a mindset towards 
-                                        continuous improvement and attention to detail, the ability to take on increasing responsibilities, and the ability to work well in team environments. 
-                                        <p>
-                                        These skills paired with my education have uniquely prepared me for the next step in my journey, obtaining a position developing web applications.
-                                        </p>
+                                <div class="col video-column">                           
+                                  <div class="card card-cover common-cards video-cards rounded-5 shadow-lg">
+                                    <div class="d-flex flex-column">
+                                      <iframe src="https://www.youtube.com/embed/F49Whcyjfgo" alt="video" style="width: 300px; height: 350px;"class="video"></iframe> 
                                     </div>
-                                </div>
-                            </div> 
-                          </div>
-                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                        </div>
+                      </div>
                       <!--   Education panel -->
                        <div class="tab-pane fade" role="tabpanel" id="education">
-                          <h2 class="pb-1">Education</h2>
+                          <h2 class="py-3 ms-2">Education</h2>
                   
-                          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4">
+                          <div class="row row-cols-1 row-cols-lg-3 align-items-stretch w-100 py-2 g-4">
 
-                            <div class="col">
-                              <div class="card card-cover education-card h-100 p-3 rounded-5 shadow-lg" >
-                                <div class="d-flex ed-col flex-column m-auto h-100 py-3">
+                            <div class="col w-33">
+                              <div class="card card-cover education-card h-100 w-75 p-3 rounded-5 shadow-lg" >
+                                <div class="d-flex ed-col flex-column m-4 py-3">
                                    <p class="align-text-bottom">January 2019</p>
                                   <p class="align-text-bottom">Master's Degree, Software Engineering</p> 
                                   <p class="align-text-bottom">Brandeis University - Watham, MA</p>
@@ -145,9 +144,9 @@
                               </div>
                             </div>
                       
-                            <div class="col">
-                              <div class="card card-cover education-card h-100 p-3 rounded-5 shadow-lg" >
-                                <div class="d-flex ed-col flex-column m-auto h-100 py-3">
+                            <div class="col w-33">
+                              <div class="card card-cover education-card h-100 w-75 p-3 rounded-5 shadow-lg" >
+                                <div class="d-flex ed-col flex-column m-4 py-3">
                                   <p class="align-text-bottom">May 2015</p>
                                   <p class="align-text-bottom">Bachelor of Art Degree, Business Management</p> 
                                   <p class="align-text-bottom">Eckerd College - St Petersburg, FL</p>
@@ -155,9 +154,9 @@
                               </div>
                             </div>
                       
-                            <div class="col">
-                              <div class="card card-cover education-card h-100 p-3 rounded-5 shadow-lg" >
-                                <div class="d-flex ed-col flex-column m-auto h-100 py-3">
+                            <div class="col w-33">
+                              <div class="card card-cover education-card h-100 w-75 p-3 rounded-5 shadow-lg" >
+                                <div class="d-flex ed-col flex-column m-4 py-3">
                                   <p class="align-text-bottom">March 2015</p>
                                   <p class="align-text-bottom">90 credit hours 
                                     <p class="align-text-bottom">Software Development Courses</p> 
@@ -170,7 +169,7 @@
                       </div>
                     <!--   Work History panel -->
             <div class="tab-pane fade" role="tabpanel" id="work-history">
-                    <h2 class="pb-1">Work History</h2>
+                    <h2 class="py-3 ms-2">Work History</h2>
                         
                     <div class="row row-cols-1 row-cols-lg-2 align-items-stretch g-4 py-1">
 
@@ -186,16 +185,13 @@
                               <li>Completed preparations for NERC Critical Infrastructure Protection and NERC Reliability Standard Audits.</li> 
                               <li>Capital projects completed on-budget for the first time for two consecutive years.</li>
                               <li>Lead the development of procedures and training programs that resulted in better than targeted Forced Outages Rates, 99% Start Up Success, and a 50% reduction in startup time.</li>
-                              <li>With management team, evaluated, selected, and negotiated turbine upgrades and revisions to the site’s Long-Term Parts and Service Agreement resulting in over 20 million in savings to our customers.</li>
+                              <li>•	Played major role in evaluating, selecting, and negotiating the contract for turbine upgrades and revisions to the site’s Long-Term Parts and Service Agreement resulting in over 20 million in savings to our customers.</li>
                             </ul>
                             <p class="head-line">Roles and Responsibilities</p>
                             <p class="role">Compliance and Technical Support Manager - 2019 - 2021</p>
-                            <p class="experience-role-text">Responsible for providing management and leadership for Safety Excellence, Compliance, Reliability and Aﬀordability initiatives. 
-                              Lead activities impacting Safety, NERC and EHS Compliance, Plant Performance, Plant Chemistry, Capital Project Development, and Engineering.</p>
+                            <p class="experience-role-text">Responsible for providing management and leadership for Excellence in Safety, EHS and NERC Compliance, Plant Performance, Plant Chemistry, Capital Project Development, and Engineering.</p>
                             <p class="role">Operations Manager - 2008 – 2019</p>
-                            <p class="experience-role-text">Provided management and leadership for plant Operations. Responsibilities included ensuring the safe, reliable, eﬀicient, and cost eﬀective operation of all generating units. 
-                              Including budgeting, reports to regulatory agencies, overseeing training programs, human performance management, long term planning, development of site maintenance program, 
-                              capital project management, contract management, and cost control.</p>
+                            <p class="experience-role-text">Provided management and leadership for plant Operational Excellence.</p>
                           </div>
                         </div>
                       </div>
@@ -204,23 +200,21 @@
                         <div class="card card-cover experience-card h-100 overflow-hidden rounded-5 shadow-lg" >
                           <div class="d-flex flex-column h-100 p-1 pb-3 mt-2">
                               <p class="company">Public Service Electric and Gas 2003 - 2008 </p> 
-                                <p class="plant">Lawrenceburg Plant - 4x2 GE 7FA 1096 MW Combined Cycle Power Plant. (acquired by AEP in May 2007)</p>
+                                <p class="plant">Lawrenceburg Plant - 4x2 GE 1096 MW Combined Cycle Power Plant. (acquired by AEP in May 2007)</p>
                                 <p class="head-line"> Key Accomplishments</p>
                                 <ul class="bullet-list">
                                   <li>Supervised a crew of multi-crafted operations and maintenance technicians.</li> 
                                   <li>Served as Outage Coordinator for annual plant outages.</li>
-                                  <li>Ensured Team met all assigned goals.</li>
                                   <li>Trained new and junior employees.</li>
-                                  <li>Ensured Team met all assigned goals.</li> 
                                   <li>Served as a member of the Operations Team for start-up and commissioning.</li> 
-                                  <li>Spent a year in New Jersey at a plant being commissioned, supervising and training a staff of union operators and technicians.</li> 
+                                  <li>Spent a year in New Jersey at another plant being commissioned, supervising and training a staff of union operators and technicians.</li> 
                                   <li>Obtained a Third-Class Stationary Engineers License.</li>
                                 </ul>
                               <p class="head-line">Roles and Responsibilities </p>
                               <p class="role">Production and Maintenance Supervisor (American Electric Power) 2007 – 2008 </p>
                               <p class="experience-role-text">Provided front line Leadership and Supervision for the daily activities in support of plant operations and maintenance.</p>
                               <p class="role">Senior Operations Supervisor (PSEG) - 2003 – 2007</p>
-                              <p class="experience-role-text">Provided Leadership and Supervision for the daily activities associated with the operation of a GE 7FA 4x2 1096 MW Combined Cycle Power Plant.</p>
+                              <p class="experience-role-text">Provided front line Leadership and Supervision for the daily activities associated with the operation of this GE 4x2 1096 MW Combined Cycle Power Plant.</p>
                           </div>
                         </div>
                       </div>
@@ -233,6 +227,7 @@
                               <p class="plant">Sutter and Acadia Energy Centers</p>
                               <p class="head-line">Key Accomplishments</p>
                                 <ul class="bullet-list">
+                                <li>Member of the operations team for start-up and commissioning for Acaadia and Sutter</li>
                                 <li>Developed and implemented a training and qualification program for all operators.</li>
                                 <li>Developed operation and maintenance procedures used by plant operations and maintenance personnel.</li>
                                 <li>Trained new and junior employees.</li>
@@ -240,10 +235,10 @@
                                 <li>Developed a keen knowledge of plant systems and equipment.</li>
                               </ul>
                               <p class="head-line">Roles and Responsibilities </p>
-                              <p class="role">Lead Operator 2001 - 2003 Acadia Energy Center</p>
-                              <p class="experience-role-text">Responsible for control room and field operations as a member of the operations Team for start-up and commissioning, and commercial operations of a Siemens 501FD2 4X2, 1260 MW Combined Cycle Power Plant.</p> 
+                              <p class="role">Lead Operator - Acadia Energy Center 2001 - 2003</p>
+                              <p class="experience-role-text">Responsible for control room and field operations of this Siemens 4X2, 1260 MW Combined Cycle Power Plant.</p> 
                               <p class="role">Field Operator 2000 - 2001 Sutter Energy Center</p>
-                              <p class="experience-role-text">Responsible for field operations as a member of the operations Team for start-up and commissioning, and commercial operations of a Siemens 501FD2 2X1, 500 MW Combined Cycle Power Plant.</p>
+                              <p class="experience-role-text">Responsible for field operations of this Siemens 2X1, 500 MW Combined Cycle Power Plant.</p>
                               <p class="company">Florida Power and Light 1996 – 2000</p>
                               <p class="plant">Turkey Point Nuclear Station</p> 
                               <p class="head-line">Roles and Responsibilities</p>
@@ -287,10 +282,10 @@
                             
                             <div class="card card-cover game-card rounded-5 shadow-lg">
                               <div class="d-flex flex-column">
-                               <p class="portfolio-text">This code shows a series of Pacman images traversing the web page while opening and closing its mout (chomping). 
-                                This code originate from an assignment in Week #7 of MIT's MERN Coding Bootcamp. 
-                                The challenge was to swap images and change direction when page borders are encountered.</p>
-                               <a href="https://github.com/BillConley01/PacMan"><p class="portfolio-text fs-6">Click here to view the Github repository for the project</p></a>
+                               <p class="portfolio-text">This project shows a series of Pacman images traversing the web page while opening and closing their mouths (chomping). 
+                                The code originated from an assignment in Week #7 of MIT's MERN Coding Bootcamp. 
+                                The challenge was to swap images and change direction when page borders were encountered.</p>
+                               <a href="https://github.com/BillConley01/PacMan"><p class="portfolio-text fs-6">Click here to view the Github repository for this project</p></a>
                               </div>
                             </div>
                           
@@ -334,10 +329,10 @@
                             
                               <div class="card card-cover game-card rounded-5 shadow-lg">
                                 <div class="d-flex flex-column pacman-col">
-                                 <p class="portfolio-text">This code provides real time information for four Boston bus lines. 
-                                   This code originate from an assignment in Week #9 of MIT's MERN Coding Bootcamp. 
+                                 <p class="portfolio-text">This project provides real time information for four Boston bus lines. 
+                                   The code originated from an assignment in Week #9 of MIT's MERN Coding Bootcamp. 
                                    The challenge was to animate and add features to a map view of a Boston bus route.</p>
-                                  <a href="https://github.com/BillConley01/Real-Time-Bus-Tracker"><p class="portfolio-text fs-6">Click here to view the Github repository for the project</p></a>
+                                  <a href="https://github.com/BillConley01/Real-Time-Bus-Tracker"><p class="portfolio-text fs-6">Click here to view the Github repository for this project</p></a>
                                 </div>
                               </div>
                             
@@ -381,10 +376,10 @@
                             
                               <div class="card card-cover game-card rounded-5 shadow-lg">
                                 <div class="d-flex flex-column">
-                                 <p class="portfolio-text">This code utilizes mouse events to manipulate DOM element properties causing the eyes to follow the movement of the mouse. 
-                                   This code originate from an assignment in Week #8 of MIT's MERN professional certification program. 
+                                 <p class="portfolio-text">This project utilizes mouse events to manipulate DOM element properties causing the eyes to follow the movement of the mouse. 
+                                   The code originated from an assignment in Week #8 of MIT's MERN professional certification program. 
                                    The challenge was to create a second set of eyes add animate them based on mouse events.</p>
-                                   <a href="https://github.com/BillConley01/Eyes"><p class="portfolio-text fs-6">Click here to view the Github repository for the project</p></a>
+                                   <a href="https://github.com/BillConley01/Eyes"><p class="portfolio-text fs-6">Click here to view the Github repository for this project</p></a>
                                 </div>
                               </div>
                             
