@@ -96,7 +96,7 @@ a.nav-link {
 /* Container for content between header and footer */
 .tab-content{
   position:relative;
-  height: 85%;
+  height: 78%;
   width:100%;
   /* Test */
   overflow-x: auto;
@@ -152,7 +152,8 @@ a.nav-link {
 }
 
 .about-col{
-  min-width: 50%;
+  min-width: 45%;
+  padding-top: 1em;
 }
 
 .about-text{
@@ -176,6 +177,7 @@ a.nav-link {
 
 .selfie-column{
   width: 23%;
+  padding-top: 1em;
   align-items: center;
   min-width: fit-content;
 
@@ -194,6 +196,7 @@ a.nav-link {
 }
 
 .video-column{
+  padding-top: 1em;
   width: 23%;
   min-width: fit-content;
 }
@@ -203,17 +206,25 @@ a.nav-link {
 .education-card{
   background-color: #F4A261;
   color:  #264653;
-  margin: auto;
-  min-width: fit-content;
-  height:460px;
+  padding: 1em;
+  margin: 1em;
+  width: 100%;
+  height:60%;
+  min-height:fit-content;
   font-size: 1.5em;
 } 
 
+.ed-col{
+  padding-top: 1em;
+  width: 100%;
+  max-width: 100%;
+}
 
 /* Experience items */
 .experience-card{
   background-color: #F4A261;
   color:  #264653;
+  padding: 16px;
   width: auto;
   height:460px;
 }
@@ -380,32 +391,33 @@ main {
 
 }
   .game-card{
+    width: 100%;
     height: fit-content;
   }
   
   .video-column{
-    width: auto;
-    min-width: fit-content;
+    width: 100%;
   }
   .selfie-column{
-    width: auto;
-    min-width: fit-content;
+    width: 100%;
   }
   .about-col{
-    width: auto;
+    width: 100%;
   
   }
   .ed-col{
-    width: auto;
-    max-width: 100%;
-    margin: 16px;
+    width: 100%;
+    margin: 1em;
   }
 
   .education-card{
-  width: 50%;
-    min-width: fit-content;
-    padding-left: 16px;
-    margin: 16px;
+  width: 100%;
+    padding-left: 1em;
+    margin: 1em;
   } 
-
+  .experience-card{
+    width: 100%;
+    padding-left: 1em;
+    margin: 1em;
+  }
 } 
