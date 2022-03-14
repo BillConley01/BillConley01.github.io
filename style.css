@@ -1,0 +1,135 @@
+a,
+body,
+span,
+header,
+body,
+nav,
+footer,
+main {
+  font-family: "Crimson Text", serif;
+  font-size: 16px;
+  color: #264653;
+}
+html,
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #96b9d0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer {
+  color: #264653;
+  background-color: #78a2cc;
+}
+
+.navbar {
+  max-height: 75px;
+  background-color: #78a2cc;
+}
+
+.navlink {
+  color: #264653;
+  font-size: 1.5em!;
+}
+
+.navbar-collapse.show {
+  background-color: #759cc9;
+}
+
+.navbar-collapse.collapsing {
+  background-color: #759cc9;
+}
+
+.dropdown-menu {
+  color: #264653;
+  background-color: #759cc9;
+  border: none;
+}
+
+.dropdown-item {
+  color: #264653;
+  background-color: #759cc9;
+  border: none;
+}
+/*
+a.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #264653;
+}
+*/
+a.nav-link {
+  color: #264653;
+}
+
+.text-small {
+  font-size: 85%;
+}
+
+#brand-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.main-content {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  /* Test */
+  overflow-x: auto;
+  overflow-y: auto;
+}
+/* Container for content between header and footer */
+.tab-content {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.tab-pane {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.common-cards {
+  background-color: #adc3d1;
+  color: #264653;
+  max-width: auto;
+  height: 100%;
+  max-width: 600px;
+  min-height: fit-content;
+}
+.about-cards {
+  background-color: #aecbd6;
+  color: #264653;
+  height: 100%;
+  max-width: 600px;
+  min-height: fit-content;
+}
+.card-header-color {
+  background-color: #88aed0;
+}
+.card-body-color {
+  background-color: #aecbd6;
+}
+
+.list-group-item {
+  background-color: transparent;
+  padding-right: 1rem;
+  border: none;
+}
+
+.icon-links {
+  color: #264653;
+  border: none;
+}
